@@ -10,7 +10,7 @@ import java.net.Socket;
  * Created by forgot on 2017/6/26.
  */
 public class SocketServer {
-    public static final int PORT = 1113;
+    public static final int PORT = 2222;
 
     public static void main(String[] args) throws IOException {
 
