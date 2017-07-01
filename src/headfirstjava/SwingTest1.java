@@ -1,4 +1,4 @@
-package thirty;
+package headfirstjava;
 
 import javax.swing.*;
 import java.awt.*;

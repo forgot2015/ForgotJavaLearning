@@ -1,4 +1,4 @@
-package two;
+package headfirstjava.two;
 
 /**
  * Created by forgot on 2017/6/25.
@@ -28,7 +28,7 @@ public class GuessGame {
             guessp2=p2.number;
             guessp3=p3.number;
             System.out.println("player one guessed "+guessp1);
-            System.out.println("player two guessed "+guessp2);
+            System.out.println("player headfirstjava.two guessed "+guessp2);
             System.out.println("player three guessed "+guessp3);
 
             if (guessp1==targetNumber){
@@ -44,7 +44,7 @@ public class GuessGame {
             if (p1isRight||p2isRight||p3isRight){
                 System.out.println("we have a winner!");
                 System.out.println("player one got it right? "+p1isRight);
-                System.out.println("player two got it right? "+p2isRight);
+                System.out.println("player headfirstjava.two got it right? "+p2isRight);
                 System.out.println("player three got it right? "+p3isRight);
                 break;
             }

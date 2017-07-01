@@ -1,4 +1,4 @@
-package thread;
+package headfirstjava;
 
 /**
  * Created by forgot on 2017/6/27.

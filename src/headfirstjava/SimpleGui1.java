@@ -1,4 +1,4 @@
-package twelve;
+package headfirstjava;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,9 +15,12 @@ public class SimpleGui1 {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         JButton button = new JButton("click me");
+        JButton button2 = new JButton("don't touch me");
         button.setSize(100,100);
+        button2.setSize(100,100);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(button);
+        frame.getContentPane().add(button2);
         frame.setSize(800, 500);
         frame.setVisible(true);
         button.addActionListener(new ActionListener() {
@@ -26,11 +29,11 @@ public class SimpleGui1 {
                 if (flag){
                     button.setText("has change");
                     flag=!flag;
-                    graphics.setColor(Color.blue);
+//                    graphics.setColor(Color.blue);
                 }else{
                     button.setText("recover");
                     flag=!flag;
-                    graphics.setColor(Color.orange);
+//                    graphics.setColor(Color.orange);
                 }
 
             }

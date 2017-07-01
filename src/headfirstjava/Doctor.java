@@ -1,7 +1,8 @@
-package seven;
+package headfirstjava;
 
 /**
  * Created by forgot on 2017/6/26.
+ * 关于继承，基类和派生类
  */
 public class Doctor {
     boolean worksAtHospital;
