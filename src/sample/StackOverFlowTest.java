@@ -1,3 +1,5 @@
+package sample;
+
 /**
  * Created by forgot on 2017/6/27.
  * StackOverflowError 栈溢出，不断递归
