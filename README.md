@@ -56,6 +56,11 @@ public class Loopy {
 }
 ```
 
-8.[图片或超连接](LICENSE)
+8.
+[图片或超连接，点击才跳转到图片](LICENSE)
 
-[图片或超链接2](http://linzongfu.com)
+[超链接2](http://linzongfu.com)
+
+![内部文件夹图片](test.png)
+
+![外部文件夹图片](../pictures/test2.png)
