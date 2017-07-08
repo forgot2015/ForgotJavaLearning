@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ByteSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ByteSample2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EffectiveJava.md" afterPath="$PROJECT_DIR$/EffectiveJava.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/generic/GenericSample.java" afterPath="$PROJECT_DIR$/src/common/generic/GenericSample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +35,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="428">
-                <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+                <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -842,12 +838,12 @@
       <workItem from="1499329446506" duration="879000" />
       <workItem from="1499330348720" duration="5734000" />
       <workItem from="1499441111512" duration="5587000" />
-      <workItem from="1499482137828" duration="9236000" />
+      <workItem from="1499482137828" duration="10355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43091000" />
+    <option name="totallyTimeSpent" value="44210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1217,7 +1213,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="428">
-            <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
