@@ -67,4 +67,7 @@ Effective Java 读书笔记
 - 并发程序更容易出错，且很难复现bug，但许多业务都需要用
 - synchronized关键字，保证同一时刻只有一个线程能执行某一个方法或某个代码块
 - Thread.stop方法不建议使用
+- executor和task优先于线程
+- 不要依赖与线程调度器
 ## 第 11 章 序列化
+- 
