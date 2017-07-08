@@ -70,4 +70,6 @@ Effective Java 读书笔记
 - executor和task优先于线程
 - 不要依赖与线程调度器
 ## 第 11 章 序列化
-- 
+- 谨慎地实现Serializable接口
+- 保护性编写readObject方法
+- 考虑用序列化代理代替序列化实例

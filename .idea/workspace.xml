@@ -34,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/EffectiveJava.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="566">
-                <caret line="72" column="2" lean-forward="false" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+              <first_editor relative-caret-position="589">
+                <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -838,12 +838,12 @@
       <workItem from="1499329446506" duration="879000" />
       <workItem from="1499330348720" duration="5734000" />
       <workItem from="1499441111512" duration="5587000" />
-      <workItem from="1499482137828" duration="11308000" />
+      <workItem from="1499482137828" duration="11642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45163000" />
+    <option name="totallyTimeSpent" value="45497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1212,8 +1212,8 @@
     <entry file="file://$PROJECT_DIR$/EffectiveJava.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="566">
-            <caret line="72" column="2" lean-forward="false" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+          <first_editor relative-caret-position="589">
+            <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor>
