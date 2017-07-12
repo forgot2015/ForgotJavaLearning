@@ -1,4 +1,4 @@
-package common.memoryleak;
+package base.memoryleak;
 
 import java.util.Arrays;
 import java.util.Vector;

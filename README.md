@@ -63,4 +63,6 @@ public class Loopy {
 
 ![内部文件夹图片](test.png)
 
-![外部文件夹图片](../pictures/test2.png)
+![外部文件夹图片](./pictures/test2.png)
+
+一个点代表一个层级，也就是有可能是. ...

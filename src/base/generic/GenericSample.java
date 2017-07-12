@@ -1,4 +1,4 @@
-package common.generic;
+package base.generic;
 
 /**
  * Created by forgot on 2017/7/8.

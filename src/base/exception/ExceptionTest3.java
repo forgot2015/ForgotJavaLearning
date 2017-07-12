@@ -1,4 +1,4 @@
-package common.exception;
+package base.exception;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
