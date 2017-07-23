@@ -1,7 +1,5 @@
 package base.generic;
 
-import java.util.ArrayList;
-
 /**
  * Created by forgot on 2017/7/15.
  */
@@ -10,7 +8,7 @@ public class GenericSample2 {
 
     }
 
-     List<T> list =new ArrayList<T>();
+//     List<T> list =new ArrayList<T>();
     public <T> void setValue(T value){
 
     }
