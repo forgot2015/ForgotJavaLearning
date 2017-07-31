@@ -45,7 +45,20 @@
 - 泛型 generics。
 - 反射 reflection
 - 注解
-- 序列化
+- 序列化 字符串是对象里的某些数据的输出结果，你看到的文本文件只包含了对象的一部分信息，你看到可能只是个值而已。
+比如一个对象
+```
+object monkey
+{
+String monkeyName = “悟空”;
+long monkeyAge = 1000;
+}
+```
+你输出的字符串可能只是这个：
+悟空；
+10000；
+但对象很多信息丢掉了，比如对象名称，字段属性之类的。
+序列化时把对象完整的输入到某个地方，比如文件，这个文件人类是看不懂的，但在反序列化时，文件就会被完成的读取为一个对象，和上面的对象一模一样，这样我们就可以在代码中对对象进行直接操作了。
 - Java网络编程, Socket编程
 - 多线程。线程同步，线程间通信，线程死锁，线程挂起/停止/恢复
 - 枚举
@@ -81,4 +94,54 @@
 - 正交性是指一个模块提供的API中，多个方法之间是否有重复的功能。如果有重复功能，正交性就差。通常，正交性高的模块更稳定，不会因为上层业务变化而被迫修改代码。好的API内部的多个方法之间不应该有任何重复功能，只实现正交的机制。如果感觉拆得太细使用不便，应该在底层API之外包装出一层Helper、Utility组成的胶水层。胶水层调用底层原语API来实现常用模式供上层使用。对于胶水层中的模块，对正交性的要求可以稍低一些。注意上层代码既可以直接调用正交的底层API，又可以调用胶水层的常用模式。
 - 紧凑性是指一个模块提供的API中，公有方法总数必须很少，每个方法的参数也必须很少。《Unix编程艺术》上说一个模块不要超过7个方法，不然就很难理解。但我实践中发现，我一般编写的模块，公有方法通常不超过3个。
 总之，单向依赖、正交性、紧凑性这三个指标都很务实，有客观方法可以度量。
+
+
+## 一些常用概念
+
+- 类：类是一个模板，它描述一类对象的行为和状态
+- 对象：类的一个实例，称为一个对象
+- 继承：子类继承父类之后，将拥有父类的一些公开方法和变量，java类只能继承一个父类
+- 封装：设置类中域的访问权限，给外部类提供统一的访问接口，提高数据的安全性
+- 多态：结合继承，重载等来使用，根据不同的参数，调用不同的处理方法
+- 接口：其中的方法默认是public abstract,变量默认是public static final，方法只能写方法体，不能写具体的方法实现。java可以实现多接口
+- 抽象类：与接口类似，但子类只能继承一个抽象类，抽象类可以包含非抽象方法和参数，而包含抽象方法的类需要转为抽象类
+- 方法重载：根据传入的不同参数，调用不同方法。 方法名必须同，传入参数必须不同，访问权限可修改，返回参数可修改
+- 方法重写：继承父类后，重写父类方法来实现不同的功能。 方法名必须同，传入参数必须同，访问权限要大于等于父类，抛出异常要小于等于父类，返回值必须相同,@Override原来是给编译器看的，并不会真的运行到程序里，而这个是为了让编译器帮你检查名字有没有拼对，所以其实不写也可以，但如果不写，而你不小心把重写的方法名字写错了，那就尴尬了
+
+## 常用缩写
+
+- Java SE Java Standard Edition，标准版本，一般我们下载的jdk是这个
+- Java ME Java Micro Edition ， 微版本，用于嵌入式开发
+- Java EE Java Enterprise Edition，企业版，用作企业开发
+- J2EE（同上）：Java 2 Platform Enterprise Edition，Java2平台企业版
+- JVM：java virtual machine，java虚拟机
+- JRE：java runtime environment，java运行环境
+- JDK：java development kit，java开发工具包
+- OpenJDK：JDK开源版本
+- JSON：JavaScript Object Notation，一种轻量级的数据交换格式
+- JDBC：Java Database Connectivity，java数据库连接
+- JNI：Java Native Interface，JAVA本地调用
+- JSP：Java Server Pages ，Java服务器网页
+- Java IDL：Java Interface Definition Language，提供与CORBA(Common Object Request Broker Architecture）的无缝的互操作性。这使得Java能集成异构的商务信息资源。
+- JavaBean:本质上是一个类，封装了一些参数和getter、setter方法
+- JavaFX:一个以Java为基础构建的富客户端平台，对手是Flash、Silverlight
+- javascript：直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，用来配合html、css写网站前端，与java无关，只是名字类似，部分语法类似
+- OpenGL:开放图形库（英语：Open Graphics Library，缩写为OpenGL）是个定义了一个跨编程语言、跨平台的应用程序界面（API）的规范，它用于生成二维、三维图像
+- ASP：Active Server Pages ，活动服务器网页，微软的
+- ASPX:Active Server Page Extended File 是微软的在服务器端运行的动态网页文件
+- IIS：Internet Information Server ，互联网信息服务器，微软的产品
+- API：Application Programming Interface，应用程序接口
+- CGI：Common Gateway Interface，通用网关接口
+- DOM：Document Object Model，文档对象模型
+- EJB：Enterprise JavaBeans，使得开发者方便地创建、部署和管理跨平台的基于组件的企业应用
+- GUI:Graphical User Interface,图形用户界面
+- IDE：Integrated Development Environment，集成开发环境
+- XML：Extensible Markup Language,扩展标记语言
+- POJO：Plain Old Java Objects
+- IoC:Inversion of Control,控制反转，是说对象的控制权进行转移
+- AOP：Aspect Oriented Programming,面向切面编程
+- AWT:Abstract Window ToolKit，抽象窗口工具包，是java最早的用于编写图形节目应用程序的开发包。
+- Swing:一个为Java设计的GUI工具包，是为了解决AWT存在的问题而新开发的包，它以 AWT 为基础的。
+- Servlet：用Java编写的服务器端程序
+- Applet：用Java语言编写的小应用程序，可以直接嵌入到网页中，并能够产生特殊的效果
 
