@@ -9,7 +9,7 @@ package schema.creation.singleton;
  *  //调用getInstance时才会生成
  */
 public class DoubleLockSingleton {
-    private static DoubleLockSingleton instance;
+    private static volatile DoubleLockSingleton instance;
 
     private DoubleLockSingleton() {
     }

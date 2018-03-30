@@ -29,7 +29,7 @@ public class SortMain {
 //        new BubbleSort().bubbleSort(ints,8);
 //        new BubbleSort().bubbleSort2(ints,8);
 //        new BubbleSort().bubbleSort3(ints,8);
-
+        BubbleSort.bubble(ints);
         //快速排序
 //        new QuickSort().quickSort(ints,0,7);
 
@@ -41,8 +41,9 @@ public class SortMain {
 //        new ShellSort().shellSort1(ints,10);
 
         //二分插入排序
-new BinarySelectSort().binarySelectSort(ints,10);
+//        new BinarySelectSort().binarySelectSort(ints, 10);
 
+        System.out.println("======排序后======");
         System.out.println(Arrays.toString(ints));
         //        for (int i:ints ) {
 //            System.out.print(i+",");

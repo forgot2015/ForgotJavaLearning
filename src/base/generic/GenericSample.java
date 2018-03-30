@@ -12,7 +12,6 @@ public class GenericSample {
         genericSample.print("wtf");
         printGeneric(1.3);
         System.out.println(printGeneric(1.2));
-
     }
 
     //方法重载的实现方式

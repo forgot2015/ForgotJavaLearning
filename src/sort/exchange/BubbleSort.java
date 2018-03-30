@@ -20,6 +20,21 @@ public class BubbleSort {
     }
 
 
+    public static void bubble(int[] data) {
+        int length = data.length;
+        int temp = 0;
+        for (int i = 0; i < length - 1; i++) {
+            for (int j = 0; j < length - 1 - i; j++) {
+                if (data[j] > data[j + 1]) {
+                    temp = data[j + 1];
+                    data[j + 1] = data[j];
+                    data[j] = temp;
+                }
+            }
+
+        }
+    }
+
     /*增加标志位exchange，若某一轮for循环没有进行元素交换，说明已经排序好了，那就不用再比较下去了， return返回*/
     public void bubbleSort2(int[] a, int n) {
         for (int i = 0; i < n - 1; i++) {

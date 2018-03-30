@@ -7,6 +7,4 @@ public class Adaptee {
     public void oldMethod() {
         System.out.println("这是一个待适配的方法");
     }
-
-
 }
