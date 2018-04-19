@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/course/exercise4/Borrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise4/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise4/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise4/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise4/Return.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise4/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise4/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise5/NewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise6/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise6/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/exercise6/TestClass.java" afterDir="false" />
+    <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="完成部分课程作业">
+      <change afterPath="$PROJECT_DIR$/src/mysql/Segment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/SchemaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/CleanCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/代码整洁之道笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/EffectiveJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/EffectiveJava笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/HeadFirstJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/HeadFirstJava笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/JavaBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/Java基础知识.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/ManMonth.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/人月神话笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/ProgrammingPearls.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/编程珠玑笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/ProgrammingPearls2.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/编程珠玑2笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/ThinkingInJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/ThinkingInJava笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EncryptUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MD5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket2/MonitorConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket2/ReadHandlerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket2/WriteHandlerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket2/client_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket2/server_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/SortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/SortMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,92 +63,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/course/exercise4/Teacher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/course/exercise5/NewsDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/course/exercise6/MyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/course/exercise6/ExceptionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/course/exercise6/TestClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuntimeException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/RuntimeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#4000#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exception.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Exception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Throwable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Throwable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="633" column="32" selection-start-line="633" selection-start-column="32" selection-end-line="633" selection-end-column="32" />
-              <folding>
-                <element signature="e#26222#26223#0" expanded="true" />
-                <element signature="e#26265#26266#0" expanded="true" />
-                <element signature="e#26470#26471#0" expanded="true" />
-                <element signature="e#26528#26529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+      <file leaf-file-name="Java基础知识.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/md/Java基础知识.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="2950">
+                <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -174,9 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/base/extend/FatherClass.java" />
-        <option value="$PROJECT_DIR$/src/base/generic/GenericSample2.java" />
-        <option value="$PROJECT_DIR$/src/base/StringSample.java" />
         <option value="$PROJECT_DIR$/md/ManMonth.md" />
         <option value="$PROJECT_DIR$/md/ProgrammingPearls.md" />
         <option value="$PROJECT_DIR$/md/ProgrammingPearls2.md" />
@@ -204,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/schema/creation/singleton/HungrySingleton.java" />
         <option value="$PROJECT_DIR$/src/schema/structure/adapter/Adaptee.java" />
         <option value="$PROJECT_DIR$/src/sort/exchange/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/sort/SortMain.java" />
         <option value="$PROJECT_DIR$/src/base/exception/ExceptionTest2.java" />
         <option value="$PROJECT_DIR$/src/base/generic/GenericSample.java" />
         <option value="$PROJECT_DIR$/src/base/extend/SubClass.java" />
@@ -225,6 +150,10 @@
         <option value="$PROJECT_DIR$/src/course/exercise6/ExceptionTest.java" />
         <option value="$PROJECT_DIR$/src/course/exercise6/MyException.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/mysql/Segment1.java" />
+        <option value="$PROJECT_DIR$/src/sort/SortMain.java" />
+        <option value="$PROJECT_DIR$/src/schema/SchemaMain.java" />
+        <option value="$PROJECT_DIR$/md/Java基础知识.md" />
       </list>
     </option>
   </component>
@@ -251,8 +180,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-315" />
-    <option name="y" value="187" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -264,6 +193,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ForgotJavaLearning" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ForgotJavaLearning" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -379,46 +319,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise6" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ForgotJavaLearning" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ForgotJavaLearning" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -430,6 +330,38 @@
               <item name="ForgotJavaLearning" type="1abcf292:AndroidViewProjectNode" />
               <item name="ForgotJavaLearning" type="1039202d:NonAndroidModuleNode" />
               <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -449,7 +381,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -483,7 +415,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionTest">
+  <component name="RunManager" selected="Application.Segment1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -527,6 +459,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course.exercise5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Segment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mysql.Segment1" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mysql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -584,16 +527,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="MyKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="ForgotJavaLearning" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MyKotlinKt" />
-      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="kotlin.MyKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ForgotJavaLearning" />
@@ -959,18 +892,18 @@
     <list>
       <item itemvalue="Application.ExceptionTest3" />
       <item itemvalue="Kotlin.kotlin.MyKotlinKt" />
-      <item itemvalue="Kotlin.MyKotlinKt" />
       <item itemvalue="Application.ClassTest" />
       <item itemvalue="Application.NewsDemo" />
       <item itemvalue="Application.ExceptionTest" />
+      <item itemvalue="Application.Segment1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Segment1" />
         <item itemvalue="Application.ExceptionTest" />
         <item itemvalue="Application.NewsDemo" />
         <item itemvalue="Application.ClassTest" />
         <item itemvalue="Kotlin.kotlin.MyKotlinKt" />
-        <item itemvalue="Kotlin.MyKotlinKt" />
       </list>
     </recent_temporary>
   </component>
@@ -1057,7 +990,13 @@
       <workItem from="1522852513404" duration="5298000" />
       <workItem from="1523181614496" duration="26000" />
       <workItem from="1523420521758" duration="55000" />
-      <workItem from="1523420595347" duration="1772000" />
+      <workItem from="1523420595347" duration="2617000" />
+      <workItem from="1523431071995" duration="4703000" />
+      <workItem from="1523495341219" duration="3749000" />
+      <workItem from="1523525019719" duration="44000" />
+      <workItem from="1523525088232" duration="622000" />
+      <workItem from="1523848981719" duration="742000" />
+      <workItem from="1524124873681" duration="4487000" />
     </task>
     <servers />
   </component>
@@ -1070,7 +1009,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168925000" />
+    <option name="totallyTimeSpent" value="184117000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1082,30 +1021,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.3293348" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info id="Image Layers" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.510661" side_tool="true" weight="0.39847162" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51119405" side_tool="true" weight="0.39651415" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.49333334" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.36790392" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48933902" weight="0.39787233" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32969433" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.39694658" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.36750272" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.3293348" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48820326" visible="true" weight="0.16197917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48820326" visible="true" weight="0.1391258" />
+      <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49543378" weight="0.32889125" />
       <window_info id="Structure" order="1" sideWeight="0.495671" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4857143" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="7" sideWeight="0.5117967" side_tool="true" weight="0.15565032" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info id="Favorites" order="7" sideWeight="0.5117967" side_tool="true" weight="0.15565032" />
       <window_info id="Nl-Palette" order="5" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5045662" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
@@ -1116,9 +1056,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24972437" />
       <window_info id="JRebel" order="6" side_tool="true" />
       <window_info anchor="right" id="LuaJ" order="9" weight="0.32995737" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.33297873" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.33260632" />
       <window_info anchor="right" id="Properties" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32975295" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1169,6 +1109,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成部分课程作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成部分课程作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1260,153 +1204,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/simpleFactory/BMWCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/simpleFactory/BenzCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/simpleFactory/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/simpleFactory/ToyotaCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/simpleFactory/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/simpleFactory/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/simpleFactory/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/singleton/DoubleLockSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/singleton/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/singleton/InnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/creation/singleton/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/structure/adapter/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/structure/adapter/AdapterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/structure/adapter/Adaptee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/structure/adapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordoffer/Solution4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/counting/Bucket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/exchange/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/SortMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/MultiMergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/generic/GenericSample2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/extend/FatherClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1548,44 +1345,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/exercise4/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="115">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="483">
           <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="437">
           <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#4000#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="13800">
           <caret line="633" column="32" selection-start-line="633" selection-start-column="32" selection-end-line="633" selection-end-column="32" />
-          <folding>
-            <element signature="e#26222#26223#0" expanded="true" />
-            <element signature="e#26265#26266#0" expanded="true" />
-            <element signature="e#26470#26471#0" expanded="true" />
-            <element signature="e#26528#26529#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1909">
           <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
         </state>
       </provider>
@@ -1606,8 +1394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/exercise6/MyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="299">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1620,8 +1408,179 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/exercise5/NewsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        <state relative-caret-position="1886">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket2/MonitorConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <folding>
+            <element signature="e#0#1635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket2/ReadHandlerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket2/WriteHandlerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket2/server_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket2/client_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mysql/Segment1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/SortMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EncryptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7573">
+          <caret line="334" column="28" lean-forward="true" selection-start-line="334" selection-start-column="28" selection-end-line="334" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usage/MAT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/EffectiveJava笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1006" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/HeadFirstJava笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1932" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/人月神话笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-224">
+            <caret column="7" selection-start-column="3" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/代码整洁之道笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1282">
+            <caret column="9" selection-start-column="3" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/编程珠玑2笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-138" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/编程珠玑笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-552">
+            <caret column="7" selection-start-column="3" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/ThinkingInJava笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-440" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schema/SchemaMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/Java基础知识.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="2950">
+            <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

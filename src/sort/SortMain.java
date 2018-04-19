@@ -10,6 +10,7 @@ import sort.select.SimpleSelectSort;
 import java.util.Arrays;
 
 /**
+ * 排序算法
  * 正序反序都要写
  * <p>
  * Created by forgot on 2017/6/11.
