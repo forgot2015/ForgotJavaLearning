@@ -20,10 +20,19 @@
 - 抽象类：与接口类似，但子类只能继承一个抽象类，抽象类可以包含非抽象方法和参数，而包含抽象方法的类需要转为抽象类
 - 方法重载：根据传入的不同参数，调用不同方法。 方法名必须同，传入参数必须不同，访问权限可修改，返回参数可修改
 - 方法重写：继承父类后，重写父类方法来实现不同的功能。 方法名必须同，传入参数必须同，访问权限要大于等于父类，抛出异常要小于等于父类，返回值必须相同,@Override原来是给编译器看的，并不会真的运行到程序里，而这个是为了让编译器帮你检查名字有没有拼对，所以其实不写也可以，但如果不写，而你不小心把重写的方法名字写错了，那就尴尬了
+- 依赖注入：如果 Class B 是 Class A 的 Dependency，B 的赋值不是写死在了类或构造函数中，而是通过构造函数或其他函数的参数传入，这种赋值方式我们称之为依赖注入。
 
 - Java关键字
 - [可访问修饰符](./src/base/modifier/FinalClass.java). default,public,protected,private
 - 不可访问修饰符.final,abstract,strictfp
+- strictfp, 即 strict float point (精确浮点),如果你想让你的浮点运算不会因为不同的硬件平台所执行的结果不一致的话，可以用关键字strictfp, 与精确度无关
+- transient 
+  变量修饰符(只能修饰字段)。标记为transient的变量，在对象存储时，这些变量状态不会被持久化。当对象序列化的保存在存储器上时，不希望有些字段数据被保存，
+  为了保证安全性，可以把这些字段声明为transient
+- volatile修饰变量。在每次被线程访问时，都强迫从共享内存中重读该成员变量的值。而且，当成员变量发生变化时，强迫线程将变化值回写到共享内存。
+这样在任何时刻，两个不同的线程总是看到某个成员变量的同一个值。 
+貌似不对，Java 语言中的 volatile 变量可以被看作是一种 “程度较轻的 synchronized”；与 synchronized 块相比，volatile 变量所需的编码较少，并且运行时开销也较少，但是它所能实现的功能也仅是 synchronized 的一部分
+https://www.ibm.com/developerworks/cn/java/j-jtp06197.html
 - Java数组
 - Java注释. //单行   /*多行 */   /**文档注释,方便JavaDoc导出 */
 - Java空行或单词间空格. 编译器会忽略
@@ -139,15 +148,20 @@ long monkeyAge = 1000;
 
 
 # 常用缩写
+- AO（Application Object）： 应用对象。 在 Web 层与 Service 层之间抽象的复用对象模型，
+  极为贴近展示层，复用度不高。
 - AOP：Aspect Oriented Programming,面向切面编程
 - Applet：用Java语言编写的小应用程序，可以直接嵌入到网页中，并能够产生特殊的效果
 - API：Application Programming Interface，应用程序接口
-- Asp：Active Server Pages ，活动服务器网页，微软的
-- Aspx:Active Server Page Extended File 是微软的在服务器端运行的动态网页文件
+- ASP：Active Server Pages ，活动服务器网页，微软的
+- ASPX:Active Server Page Extended File 是微软的在服务器端运行的动态网页文件
 - AWT:Abstract Window ToolKit，抽象窗口工具包，是java最早的用于编写图形节目应用程序的开发包。
+- BO（Business Object） ：业务对象。 由 Service 层输出的封装业务逻辑的对象。
 - CGI：Common Gateway Interface，通用网关接口
 - DAO Data Access Object DAO Java数据访问对象
+- DO ：（Data Object）与数据库表结构一一对应，通过 DAO 层向上传输数据源对象
 - DOM：Document Object Model，文档对象模型
+- DTO（Data Transfer Object） ：数据传输对象， Service 或 Manager 向外传输的对象
 - EJB：Enterprise JavaBeans，使得开发者方便地创建、部署和管理跨平台的基于组件的企业应用
 - GUI:Graphical User Interface,图形用户界面
 - IDE：Integrated Development Environment，集成开发环境
@@ -164,7 +178,9 @@ long monkeyAge = 1000;
 - JavasScript：直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，用来配合html、css写网站前端，与java无关，只是名字类似，部分语法类似
 - JDBC：Java Database Connectivity，java数据库连接
 - JDK：java development kit，java开发工具包
+- JIT: just in time,JIT是一种提高程序运行效率的方法。通常，程序有两种运行方式：静态编译与动态解释。静态编译的程序在执行前全部被翻译为机器码，而解释执行的则是一句一句边运行边翻译
 - JNI：Java Native Interface，JAVA本地调用
+- JPA： Java Persistence API的简称，即为Java持久层API。总的来说，JPA是规范，Hibernate是框架，JPA是持久化规范，而Hibernate实现了JPA。
 - JRE：java runtime environment，java运行环境
 - JSP：Java Server Pages ，Java服务器网页
 - JSON：JavaScript Object Notation，一种轻量级的数据交换格式
@@ -175,7 +191,16 @@ long monkeyAge = 1000;
 - ORM：对象关系映射（Object Relation Mapping），是一种程序设计技术，用于实现面向对象编程语言里不同类型系统的数据之间的转换。
 从效果上说，它其实是创建了一个可在编程语言里使用的“虚拟对象数据库”。
 - POJO：Plain Old Java Objects
+- Query：数据查询对象，各层接收上层的查询请求。 注意超过 2 个参数的查询封装，禁止使用 Map 类来传输
+- REST -- REpresentational State Transfer
+REST是什么呢？ 它是一种架构风格，腾讯公司或其他公司建立API时要遵守的一种规则/风格，当然也有其他规则可以用。
+（看Url就知道要什么
+看http method就知道干什么
+看http status  code就知道结果如何）
+首先，之所以晦涩是因为前面主语被去掉了，全称是 Resource Representational State Transfer
+资源表现层状态转移
 - Swing:一个为Java设计的GUI工具包，是为了解决AWT存在的问题而新开发的包，它以 AWT 为基础的。
 - Servlet：用Java编写的服务器端程序
+- VO（View Object） ： 显示层对象，通常是 Web 向模板渲染引擎层传输的对象。
 - XML：Extensible Markup Language,扩展标记语言
 
