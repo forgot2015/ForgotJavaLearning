@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Main {
     static Stack<Integer> stack1 = new Stack<Integer>();
+    private static String str;
 
     public static void main(String[] args) {
 //        System.out.println("Hello World!");
@@ -40,8 +41,8 @@ public class Main {
 //        DecimalFormat    df   = new DecimalFormat(".##");
 //
 
-        System.out.println(stringForTime(1234));
-        System.out.println(stringForTime(14));
+//        System.out.println(stringForTime(1234));
+//        System.out.println(stringForTime(14));
 
 //
 //        List<Integer> integerList = new ArrayList<>();
@@ -51,6 +52,9 @@ public class Main {
 //        addItem(integerList, 1);
 //        addItem(integerList, 3);
 //        System.out.println(integerList);
+
+        System.out.println(System.currentTimeMillis());
+        System.out.println(str);
     }
 
     private static void addItem(List list, Integer i) {
@@ -59,6 +63,16 @@ public class Main {
         }
     }
 
+    //这里方法名重复了，不是方法重载了，因为泛型List<String>和List<Integer>在编译时会擦除，统一变成了List，即参数类型完全一致，不是方法重载
+//    public static String method(List<String> list) {
+//        System.out.println("invoke method(List<String> list)");
+//        return "";
+//    }
+//
+//    public static int method(List<Integer> list) {
+//        System.out.println("invoke method(List<Integer> list)");
+//        return 1;
+//    }
 
     /**
      * 获取当前时间，精确到秒，个位数则十位补零
@@ -80,7 +94,6 @@ public class Main {
         String strSecond = String.format("%02d", second);
         return year + strMonth + strDay + strHour + strMinute + strSecond;
     }
-
 
 
     /**
