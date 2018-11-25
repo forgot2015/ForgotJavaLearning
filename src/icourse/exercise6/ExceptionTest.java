@@ -1,4 +1,4 @@
-package course.exercise6;
+package icourse.exercise6;
 
 /**
  * 异常测试类

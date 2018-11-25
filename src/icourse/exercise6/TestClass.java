@@ -1,4 +1,4 @@
-package course.exercise6;
+package icourse.exercise6;
 
 /**
  * 包含可能会抛出异常的方法的类

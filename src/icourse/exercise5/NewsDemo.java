@@ -1,4 +1,4 @@
-package course.exercise5;
+package icourse.exercise5;
 
 /**
  * 一个简单的新闻事件侦听演示程序

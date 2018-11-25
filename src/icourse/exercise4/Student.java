@@ -1,4 +1,4 @@
-package course.exercise4;
+package icourse.exercise4;
 
 /**
  * 学生类

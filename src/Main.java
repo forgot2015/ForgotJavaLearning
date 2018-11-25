@@ -53,8 +53,14 @@ public class Main {
 //        addItem(integerList, 3);
 //        System.out.println(integerList);
 
-        System.out.println(System.currentTimeMillis());
-        System.out.println(str);
+//        System.out.println(System.currentTimeMillis());
+//        System.out.println(str);
+
+        List<String> testList = new ArrayList<>(10);
+        testList.add(2,"2str");
+        testList.add(5,"2str");
+        testList.add(7,"2str");
+        System.out.println(Arrays.toString(testList.toArray()));
     }
 
     private static void addItem(List list, Integer i) {

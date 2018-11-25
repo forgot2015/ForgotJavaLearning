@@ -1,4 +1,4 @@
-package course.exercise6;
+package icourse.exercise6;
 
 /**
  * 自定义异常
