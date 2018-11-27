@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icourse/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/EffectiveJava笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/读书笔记/EffectiveJava笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/HeadFirstJava笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/读书笔记/HeadFirstJava笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/ThinkingInJava笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/读书笔记/ThinkingInJava笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/人月神话笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/读书笔记/人月神话笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/代码整洁之道笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/读书笔记/代码整洁之道笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/编程珠玑2笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/读书笔记/编程珠玑2笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/编程珠玑笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/读书笔记/编程珠玑笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise4/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise4/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise4/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise4/ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise4/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise4/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise4/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise4/Return.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise4/Return.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise4/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise4/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise5/NewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise5/NewsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise6/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise6/ExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise6/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise6/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course/exercise6/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise6/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +49,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
+            <state relative-caret-position="1139">
               <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
             </state>
           </provider>
@@ -78,7 +58,7 @@
       <file leaf-file-name="Exercise.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="306">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,7 +106,7 @@
       <file leaf-file-name="NewsDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/icourse/exercise5/NewsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
+            <state relative-caret-position="1462">
               <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
             </state>
           </provider>
@@ -135,17 +115,17 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/icourse/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema/creation/builder/BuildTest.java">
+      <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="643" column="35" selection-start-line="643" selection-start-column="35" selection-end-line="643" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -179,6 +159,7 @@
       <find>print</find>
       <find>level</find>
       <find>printS</find>
+      <find>pow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -279,28 +260,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="icourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -416,6 +375,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ForgotJavaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ForgotJavaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -446,7 +427,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="SimpleDateFormat&#9;PSI&#9;JAVA://java.text.SimpleDateFormat&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java&#10;Hex&#9;PSI&#9;JAVA://javax.xml.bind.annotation.adapters.HexBinaryAdapter&#10;StackOverflowError&#9;PSI&#9;JAVA://java.lang.StackOverflowError" />
+    <property name="SearchEverywhereHistoryKey" value="Math&#9;PSI&#9;JAVA://java.lang.Math&#10;SimpleDateFormat&#9;PSI&#9;JAVA://java.text.SimpleDateFormat&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java&#10;Hex&#9;PSI&#9;JAVA://javax.xml.bind.annotation.adapters.HexBinaryAdapter&#10;StackOverflowError&#9;PSI&#9;JAVA://java.lang.StackOverflowError" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -910,7 +891,8 @@
       <workItem from="1536918356402" duration="319000" />
       <workItem from="1542268344960" duration="20000" />
       <workItem from="1542289988212" duration="83000" />
-      <workItem from="1543161405973" duration="3748000" />
+      <workItem from="1543161405973" duration="3890000" />
+      <workItem from="1543240531695" duration="6109000" />
     </task>
     <task id="LOCAL-00001" summary="删除部分不用代码，添加基础知识">
       <created>1524130911441</created>
@@ -919,7 +901,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524130911441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加部分java练习题">
+      <created>1543165451085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543165451086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -931,7 +920,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200219000" />
+    <option name="totallyTimeSpent" value="206470000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -947,7 +936,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.33200532" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.331565" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info id="Image Layers" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -955,7 +944,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.49333334" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.39522547" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" visible="true" weight="0.367374" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.367374" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.3293348" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -988,7 +977,6 @@
     <layout-to-restore>
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5042644" side_tool="true" weight="0.3997722" />
       <window_info anchor="right" id="LuaJ" order="9" weight="0.32995737" />
-      <window_info id="Favorites" order="7" sideWeight="0.504329" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="JRebel" order="6" side_tool="true" />
       <window_info id="Image Layers" order="9" />
@@ -1007,6 +995,7 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32661718" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24972437" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32975295" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.36790392" />
       <window_info id="Nl-Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.49333334" weight="0.32942432" />
@@ -1017,7 +1006,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="7" sideWeight="0.504329" side_tool="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.495671" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5045662" side_tool="true" weight="0.32942432" />
@@ -1060,7 +1049,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成部分课程作业" />
     <MESSAGE value="删除部分不用代码，添加基础知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除部分不用代码，添加基础知识" />
+    <MESSAGE value="添加部分java练习题" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加部分java练习题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1152,7 +1142,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Throwable.java" />
     <entry file="file://$PROJECT_DIR$/src/icourse/exercise6/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1398,7 +1387,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="306">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1436,22 +1425,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icourse/exercise5/NewsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
+        <state relative-caret-position="1462">
           <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
+        <state relative-caret-position="1139">
           <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="643" column="35" selection-start-line="643" selection-start-column="35" selection-end-line="643" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icourse/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

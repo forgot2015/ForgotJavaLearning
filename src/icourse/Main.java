@@ -5,41 +5,89 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        Scanner in = new Scanner (System.in);
-        int utc;
-        int bjt;
-        utc = in.nextInt();
-        if (utc>800)
-        {
-            bjt = utc-800;
-            System.out.println(bjt);
-        }
-        if (utc == 800)
-        {
-            bjt = 0;
-            System.out.println(bjt);
-        }
-        if (utc < 800 )
-        {
-            if ( utc >= 0 )
-            {
-                if ( utc < 10 )
-                {
-                    System.out.println(utc);
-                }
-                else
-                {
-                    bjt=utc-800+2400;
-                    System.out.println(bjt);
-                }
-            }
 
-        }
     }
 
+//    public static void main(String[] args) {
+////        int a = 5;
+////        double b = 5.0;
+////        long c = 5L;
+////        System.out.println(a == b);
+////        System.out.println(a == c);
+//        double a = 0.3;
+//        double b = 0.1 + 0.1 + 0.1;
+//        System.out.println(a == b);
+//    }
 
-    //java练习题2.2
+    //    练习题3.2网友解法
+//    public static void main(String[] args) {
+//        int a = 0;
+//        int b = 1;
+//        int sum = 0;
+//        Scanner in = new Scanner(System.in);
+//        a = in.nextInt();
+//        while (a != 0) {
+//            if ((a + b) % 2 == 0) {
+//                sum = sum + (int) Math.pow(2, (b - 1));
+//            }
+//            a = a / 10;
+//            b = b + 1;
+//        }
+//        System.out.println(sum);
+//    }
+}
+
+
+//练习题3。2 我的渣渣解法，内存占用太多
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        int input = in.nextInt();
+////        String byteStr = "101010";
+//
+//        int num1;
+//        int num2;
+//        int num3;
+//        int num4;
+//        int num5;
+//        int num6;
+//
+//        num6 = input / 100000;
+//        num5 = input / 10000;
+//        num4 = input / 1000;
+//        num3 = input / 100;
+//        num2 = input / 10;
+//        num1 = input % 10;
+//
+//        int byte6 = (num6 + 6) % 2 == 0 ? 1 : 0;
+//        int byte5 = (num5 + 5) % 2 == 0 ? 1 : 0;
+//        int byte4 = (num4 + 4) % 2 == 0 ? 1 : 0;
+//        int byte3 = (num3 + 3) % 2 == 0 ? 1 : 0;
+//        int byte2 = (num2 + 2) % 2 == 0 ? 1 : 0;
+//        int byte1 = (num1 + 1) % 2 == 0 ? 1 : 0;
+//
+//        String byteStr = byte6 + "" + byte5 + byte4 + byte3 + byte2 + byte1;
+//        int finalInt = Integer.parseInt(byteStr, 2);
+//        System.out.println(finalInt);
+//    }
+
+//    java练习题3.1
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        int jishu = 0;
+//        int oushu = 0;
+//        long input = in.nextLong();
+//        while (input != -1) {
+//            if (input % 2 == 0) {
+//                oushu++;
+//            } else {
+//                jishu++;
+//            }
+//            input = in.nextLong();
+//        }
+//        System.out.println(jishu + " " + oushu);
+//    }
+
+//java练习题2.2
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int sign = scanner.nextInt();
@@ -83,7 +131,7 @@ public class Main {
 //    }
 
 
-    //    java练习题2.1
+//    java练习题2.1
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int bjt = scanner.nextInt();
@@ -124,7 +172,7 @@ public class Main {
 //    }
 
 
-    //java练习题1
+//java练习题1
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int f = scanner.nextInt();
@@ -133,4 +181,4 @@ public class Main {
 //        System.out.println((int)c);
 //    }
 
-}
+//}
