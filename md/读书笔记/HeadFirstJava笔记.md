@@ -1,5 +1,4 @@
-# ForgotHeadFirstJava
-HeadFirstJava 笔记
+《HeadFirstJava》 读书笔记
 
 ## 第一章 基本概念(P1~26)
 基本语句，if else, for循环, while循环

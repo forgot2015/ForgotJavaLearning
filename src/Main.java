@@ -5,62 +5,9 @@ public class Main {
     private static String str;
 
     public static void main(String[] args) {
-//        System.out.println("Hello World!");
-//        stack1.push(1);
-//        stack1.push(2);
-//        stack1.push(3);
-//        System.out.println(stack1.pop());
-//        //只查询，不出栈
-//        System.out.println(stack1.peek());
-//        System.out.println(stack1.pop());
-//
-//        String langbiRechargeURL = "http://test-cpay.ddwvending.com/home/langbirecharge?ms=%s&os=%s&mt=%s&ui=%s&la=%s&ra=%s";
-//        String s = String.format(langbiRechargeURL, "11", "22", "33", "11", "22", "33");
-//        System.out.println(s);
-//        System.out.println(getTime());
+        String[] strs = new String[]{};
+//        strs[1] = "1";
 
-
-//        String s = "2017-08-18T00:00:00";
-//        SimpleDateFormat sf=new SimpleDateFormat("yyyy/MM/dd");
-//        System.out.println(sf.format(s));
-//        Date d = null;
-//        try {
-//            d = DateFormat.getDateTimeInstance().parse("2017-08-18T00:00:00");
-////            d = DateFormat.getDateTimeInstance().parse("2009-08-08 20:08:08");
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-        //参数为符合日期规则的字符串
-//        System.out.println(d.getDate());
-//        String s = "2017-08-18T00:00:00";
-//        System.out.println(s.substring(0,10));
-//        double price = 0.00001;
-//        DecimalFormat    df   = new DecimalFormat("######0.00");
-//        df.format(price);
-//        System.out.println(price);
-//        DecimalFormat    df   = new DecimalFormat(".##");
-//
-
-//        System.out.println(stringForTime(1234));
-//        System.out.println(stringForTime(14));
-
-//
-//        List<Integer> integerList = new ArrayList<>();
-//
-//        addItem(integerList, 1);
-//        addItem(integerList, 1);
-//        addItem(integerList, 1);
-//        addItem(integerList, 3);
-//        System.out.println(integerList);
-
-//        System.out.println(System.currentTimeMillis());
-//        System.out.println(str);
-
-        List<String> testList = new ArrayList<>(10);
-        testList.add(2,"2str");
-        testList.add(5,"2str");
-        testList.add(7,"2str");
-        System.out.println(Arrays.toString(testList.toArray()));
     }
 
     private static void addItem(List list, Integer i) {

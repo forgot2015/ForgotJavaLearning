@@ -3,10 +3,192 @@ package icourse;
 import java.util.Scanner;
 
 public class Main {
-
+    //期末考试
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        int input = scanner.nextInt();
+        if (input == 0) {
+            System.out.println(32);
+        } else {
+            String byteStr = Integer.toBinaryString(input);
+            System.out.println(32 - byteStr.length());
+        }
     }
+
+    //java练习7.1
+//    static StringBuilder str = new StringBuilder();
+//
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        int n = scanner.nextInt();
+//
+//        str.append(n).append("=");
+//        getDivisor(n);
+//    }
+//
+//    private static void getDivisor(int end) {
+//        for (int i = 2; i <= end; i++) {
+//            if (end % i == 0) {
+//                if (i == end) {
+//                    str.append(i);
+//                    System.out.println(str);
+//                } else {
+//                    str.append(i).append("x");
+//                    getDivisor(end / i);
+//                    break;
+//                }
+//            }
+//        }
+//    }
+
+
+    //java练习7.2
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        int n = scanner.nextInt();
+//        int m = scanner.nextInt();
+//        StringBuilder out = new StringBuilder();
+//        for (int i = n; i < m; i++) {
+//            if (isComplete(i)) {
+//                out.append(i).append(" ");
+//            }
+//        }
+//        String string = new String(out).trim();
+//        if (string.length() > 0) {
+//            System.out.println(string);
+//        } else {
+//            System.out.println();
+//        }
+//    }
+
+//    static boolean isComplete(int num) {
+//        int divisorSum = 0;
+//        for (int i = 1; i < num; i++) {
+//            if (num % i == 0) {
+//                divisorSum += i;
+//            }
+//        }
+//        return divisorSum == num;
+//    }
+
+    // TODO: 2018/11/27
+    //java练习6.1 测试用例无法全部通过，未知原因
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        String input = scanner.nextLine().trim();
+//        if (input.endsWith(".")) {
+//            input = input.substring(0, input.length() - 1);
+//        }
+//        String[] strings = input.split(" ");
+//        StringBuilder str = new StringBuilder();
+//        for (int i = 0; i < strings.length; i++) {
+//            str.append(strings[i].length()).append(" ");
+//        }
+//        System.out.print(str.toString().trim());
+//
+//    }
+
+
+//    //java练习4.2
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        String input = in.nextLine();
+//        StringBuilder targetStr = new StringBuilder();
+//        for (int i = 0; i < input.length() - 1; i++) {
+//            String iNum = input.substring(i, i + 1);
+//            if (iNum.equals("-")) {
+//                targetStr.append("fu").append(" ");
+//            } else {
+//                targetStr.append(getTarget(Integer.parseInt(iNum))).append(" ");
+//            }
+//        }
+//        String iNum = input.substring(input.length() - 1, input.length());
+//        targetStr.append(getTarget(Integer.parseInt(iNum)));
+//        System.out.println(targetStr);
+//    }
+//
+//    //注意老版本的java不支持string作为switch条件
+//    private static String getTarget(int input) {
+//        String output = "";
+//        switch (input) {
+//            case 0:
+//                output = "ling";
+//                break;
+//            case 1:
+//                output = "yi";
+//                break;
+//            case 2:
+//                output = "er";
+//                break;
+//            case 3:
+//                output = "san";
+//                break;
+//            case 4:
+//                output = "si";
+//                break;
+//            case 5:
+//                output = "wu";
+//                break;
+//            case 6:
+//                output = "liu";
+//                break;
+//            case 7:
+//                output = "qi";
+//                break;
+//            case 8:
+//                output = "ba";
+//                break;
+//            case 9:
+//                output = "jiu";
+//                break;
+//            default:
+//                break;
+//        }
+//        return output;
+//    }
+
+    //java题4.1 求第n个素数到第m个素数之间的所有的素数
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        int n = in.nextInt();
+//        int m = in.nextInt();
+//        int sum = 0;
+//        int[] primeInt = new int[m + 1];
+//        int curNum = 2;
+//        int count = 0;
+//        while (count < m) {
+//            if (isPrime(curNum)) {
+//                ++count;
+//                primeInt[count] = curNum;
+//            }
+//            curNum++;
+//        }
+//
+//        for (int i = n; i <= m; i++) {
+//            sum = sum + primeInt[i];
+//        }
+//
+//        System.out.println(sum);
+//
+//    }
+//
+//    static boolean isPrime(int num) {
+//        for (int i = 2; i < num; i++) {
+//            if (num % i == 0) {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+
+//    int getNumPrime(int index) {
+//        int primeIndex = 0;
+//        while (primeIndex < index) {
+//            if (isPrime())
+//        }
+//        return 0;
+//    }
+
 
 //    public static void main(String[] args) {
 ////        int a = 5;
