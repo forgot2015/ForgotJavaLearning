@@ -3,6 +3,7 @@ package sort.select;
 /**
  * Created by forgot on 5/24/2017.
  * 简单选择排序，属于选择排序
+ * 每一次循环，选出剩余当中最小的数，顺序排到左边
  */
 public class SimpleSelectSort {
     public void simpleSelectSort(int[] a, int n) {
@@ -13,6 +14,7 @@ public class SimpleSelectSort {
                     min = j;
                 }
             }
+
             if (min != i) {
                 int x = a[i];
                 a[i] = a[min];

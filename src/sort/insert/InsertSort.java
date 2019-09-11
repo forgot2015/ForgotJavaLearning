@@ -21,9 +21,7 @@ public class InsertSort {
                 }
                 a[j] = x;
             }
-
         }
     }
-
 
 }

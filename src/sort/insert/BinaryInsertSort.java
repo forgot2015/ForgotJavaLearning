@@ -27,8 +27,6 @@ public class BinaryInsertSort {
                }a[high+1]=x;
            }
 
-
-
         }
     }
 }

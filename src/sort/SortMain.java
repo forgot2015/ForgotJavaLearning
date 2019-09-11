@@ -30,7 +30,7 @@ public class SortMain {
 //        new BubbleSort().bubbleSort(ints,8);
 //        new BubbleSort().bubbleSort2(ints,8);
 //        new BubbleSort().bubbleSort3(ints,8);
-        BubbleSort.bubble(ints);
+       new  BubbleSort().bubble(ints);
         //快速排序
 //        new QuickSort().quickSort(ints,0,7);
 

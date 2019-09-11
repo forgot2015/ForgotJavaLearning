@@ -20,7 +20,7 @@ public class BubbleSort {
     }
 
 
-    public static void bubble(int[] data) {
+    public void bubble(int[] data) {
         int length = data.length;
         int temp = 0;
         for (int i = 0; i < length - 1; i++) {
@@ -54,11 +54,11 @@ public class BubbleSort {
         }
     }
 
-
     /*再改进，一次排序排列两个数, max和min,同样增加标志位判断*/
     public void bubbleSort3(int[] a, int n) {
         for (int i = 0; i < n - 1; i++) {
             boolean exchange = false;
+
             for (int j = 0; j < n - 1 - i; j++) {
                 if (a[j] > a[j + 1]) {
                     int x = a[j + 1];
@@ -66,8 +66,8 @@ public class BubbleSort {
                     a[j] = x;
                     exchange = true;
                 }
-
             }
+
             for (int j = n - 1 - i; j > 0; j--) {
                 if (a[j - 1] > a[j]) {
                     int x = a[j];
@@ -79,9 +79,38 @@ public class BubbleSort {
             if (!exchange) {
                 return;
             }
-
         }
     }
 
+    //冒泡排序优化2
+    void bubbleSort4(int[] arr, int size) {
+        int i = 0, j = 0;
+        int k = size - 1;
+        //pos变量用来标记循环里最后一次交换的位置
+        int pos = 0;
+
+        for (i = 0; i < size - 1; i++)//一共要排序size-1次
+        {
+            //每次遍历标志位都要先置为0，才能判断后面的元素是否发生了交换
+            int flag = 0;
+
+            for (j = 0; j < k; j++)//选出该趟排序的最大值往后移动
+            {
+                if (arr[j] > arr[j + 1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                    flag = 1;//只要有发生了交换，flag就置为1
+                    pos = j;//循环里最后一次交换的位置 j赋给pos
+                }
+            }
+
+            k = pos;
+            //判断标志位是否为0，如果为0，说明后面的元素已经有序，就直接return
+            if (flag == 0) {
+                return;
+            }
+        }
+    }
 
 }

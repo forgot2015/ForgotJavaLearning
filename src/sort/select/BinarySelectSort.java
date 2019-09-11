@@ -16,6 +16,7 @@ public class BinarySelectSort {
                     max = j;
                 }
             }
+
             if (i != min) {
                 int x = a[i];
                 a[i] = a[min];
