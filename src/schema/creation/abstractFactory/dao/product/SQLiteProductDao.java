@@ -8,16 +8,17 @@ import java.util.Map;
 /**
  * Created by forgot on 2017/6/18.
  */
-public class SQLiteProductDao implements IProductDao{
-    Map<String,Product> map =new HashMap<>();
+public class SQLiteProductDao implements IProductDao {
+    Map<String, Product> map = new HashMap<>();
+
     @Override
     public void addProduct(Product product) {
-        map.put(product.getPriductName(),product);
+        map.put(product.getProductName(), product);
     }
 
     @Override
     public void removeProduct(Product product) {
-        map.remove(product.getPriductName());
+        map.remove(product.getProductName());
     }
 
     @Override

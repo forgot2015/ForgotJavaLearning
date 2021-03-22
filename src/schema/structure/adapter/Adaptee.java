@@ -2,6 +2,7 @@ package schema.structure.adapter;
 
 /**
  * Created by forgot on 6/9/2017.
+ * 待适配的类,受改造者
  */
 public class Adaptee {
     public void oldMethod() {

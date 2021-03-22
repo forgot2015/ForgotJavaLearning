@@ -5,9 +5,10 @@ import java.util.Map;
 
 /**
  * Created by forgot on 2017/6/20.
+ * 投票管理
  */
 public class VoteManager {
-    //持有状体处理对象
+    //持有状态处理对象
     private VoteState state = null;
     //记录用户投票的结果，Map<String,String>对应Map<用户名称，投票的选项>
     private Map<String, String> mapVote = new HashMap<>();
@@ -40,14 +41,14 @@ public class VoteManager {
         //到底是正常投票、重复投票、恶意投票还是上黑名单的状态
         if (oldVoteCount == 1) {
             state = new NormalVoteState();
-        } else if (oldVoteCount > 1 && oldVoteCount < 5) {
+        } else if (oldVoteCount > 1 && oldVoteCount <= 3) {
             state = new RepeatVoteState();
-        } else if (oldVoteCount >= 5 && oldVoteCount < 8) {
+        } else if (oldVoteCount > 3 && oldVoteCount <= 5) {
             state = new SpiteVoteState();
-        } else if (oldVoteCount > 8) {
+        } else if (oldVoteCount > 5) {
             state = new BlackVoteState();
         }
         //然后转调状态对象来进行相应的操作
-        state.vote(user, voteItem, this);
+        state.voteResult(user, voteItem, this);
     }
 }

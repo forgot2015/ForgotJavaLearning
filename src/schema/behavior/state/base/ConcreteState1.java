@@ -6,6 +6,6 @@ package schema.behavior.state.base;
 public class ConcreteState1 implements State {
     @Override
     public void handle(String s) {
-        System.out.println("ConcreteState1 handle:"+s);
+        System.out.println("ConcreteState1 handle 开机:"+s);
     }
 }

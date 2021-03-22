@@ -10,6 +10,5 @@ public class OracleFactory implements IFactory {
     @Override
     public IUserDao createUserDao() {
         return new OracleUserDao();
-
     }
 }

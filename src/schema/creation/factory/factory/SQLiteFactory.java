@@ -10,6 +10,5 @@ public class SQLiteFactory implements IFactory {
     @Override
     public IUserDao createUserDao() {
         return new SQLiteUserDao();
-
     }
 }

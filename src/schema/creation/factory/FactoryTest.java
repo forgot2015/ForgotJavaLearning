@@ -13,14 +13,19 @@ import schema.creation.factory.factory.OracleFactory;
  */
 public class FactoryTest {
     public static void main(String[] args) {
-        IFactory factory =new MySQLFactory();
+        System.out.println("---test MySQLFactory---");
+        IFactory factory = new MySQLFactory();
         IUserDao userDao = factory.createUserDao();
-        System.out.println( userDao.getUser("test"));
+        System.out.println(userDao.getUser("test"));
+        User user0 = new User("test", "123456");
+        userDao.addUser(user0);
+        System.out.println(userDao.getUser("test"));
 
+        System.out.println("---test OracleFactory---");
         IFactory factory1 = new OracleFactory();
         IUserDao userDao1 = factory1.createUserDao();
-        User user =new User("forgot","123456");
-        User user1 =new User("baobei","654321");
+        User user = new User("forgot", "123456");
+        User user1 = new User("baobei", "654321");
         userDao1.addUser(user);
         userDao1.addUser(user);
         userDao1.addUser(user1);

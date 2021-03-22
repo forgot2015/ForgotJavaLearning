@@ -20,7 +20,6 @@ public class SQLiteUserDao implements IUserDao {
     @Override
     public void removeUser(User user) {
         userMap.remove(user.getUsername());
-
     }
 
     @Override

@@ -4,20 +4,20 @@ package schema.creation.abstractFactory.bean;
  * Created by forgot on 2017/6/18.
  */
 public class Product {
-    private String priductName;
+    private String productName;
     private double price;
 
-    public Product(String priductName, double price) {
-        this.priductName = priductName;
+    public Product(String productName, double price) {
+        this.productName = productName;
         this.price = price;
     }
 
-    public String getPriductName() {
-        return priductName;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setPriductName(String priductName) {
-        this.priductName = priductName;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public double getPrice() {
@@ -31,7 +31,7 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "priductName='" + priductName + '\'' +
+                "productName='" + productName + '\'' +
                 ", price=" + price +
                 '}';
     }

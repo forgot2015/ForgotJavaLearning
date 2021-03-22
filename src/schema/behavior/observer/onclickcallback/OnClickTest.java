@@ -5,11 +5,11 @@ package schema.behavior.observer.onclickcallback;
  */
 public class OnClickTest {
     public static void main(String[] args) {
-        View view =new View();
+        View view = new View();
         view.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick() {
-                System.out.println(view+":回调onClick方法");
+                System.out.println(view + ":回调onClick方法");
             }
         });
         view.touchScreen();

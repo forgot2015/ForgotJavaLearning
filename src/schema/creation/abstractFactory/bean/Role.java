@@ -6,35 +6,35 @@ import java.util.Arrays;
  * Created by forgot on 2017/6/18.
  */
 public class Role {
-    private String rolename;//角色名，如管理员，财务
-    private String[] permission;//角色权限，如增加，删除
+    private String roleName;//角色名，如管理员，财务
+    private String[] permissions;//角色权限，如增加，删除
 
-    public Role(String rolename, String[] permission) {
-        this.rolename = rolename;
-        this.permission = permission;
+    public Role(String roleName, String[] permissions) {
+        this.roleName = roleName;
+        this.permissions = permissions;
     }
 
-    public String getRolename() {
-        return rolename;
+    public String getRoleName() {
+        return roleName;
     }
 
-    public void setRolename(String rolename) {
-        this.rolename = rolename;
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
     }
 
-    public String[] getPermission() {
-        return permission;
+    public String[] getPermissions() {
+        return permissions;
     }
 
-    public void setPermission(String[] permission) {
-        this.permission = permission;
+    public void setPermissions(String[] permissions) {
+        this.permissions = permissions;
     }
 
     @Override
     public String toString() {
         return "Role{" +
-                "rolename='" + rolename + '\'' +
-                ", permission=" + Arrays.toString(permission) +
+                "roleName='" + roleName + '\'' +
+                ", permissions=" + Arrays.toString(permissions) +
                 '}';
     }
 

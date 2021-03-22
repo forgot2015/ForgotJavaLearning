@@ -2,6 +2,7 @@ package schema.behavior.observer.normal;
 
 /**
  * Created by forgot on 2017/6/17.
+ * 观察者模式
  */
 public class NormalTest {
     public static void main(String[] args) {

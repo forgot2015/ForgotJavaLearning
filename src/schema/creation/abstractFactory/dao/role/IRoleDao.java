@@ -7,7 +7,9 @@ import schema.creation.abstractFactory.bean.Role;
  */
 public interface IRoleDao {
     void addRole(Role role);
+
     void removeRole(Role role);
+
     Role getRole(String roleName);
 
 }

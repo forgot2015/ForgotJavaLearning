@@ -23,6 +23,16 @@ public class MySQLUserDao implements IUserDao {
 
     @Override
     public User getUser(String name) {
+        int index = -1;
+        for (int i = 0, size = userList.size(); i < size; i++) {
+            if (name.equals(userList.get(i).getUsername())) {
+                index = i;
+                break;
+            }
+        }
+        if (index >= 0) {
+            return userList.get(index);
+        }
         return null;
     }
 }

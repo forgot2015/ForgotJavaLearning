@@ -9,15 +9,16 @@ import java.util.Map;
  * Created by forgot on 2017/6/18.
  */
 public class OracleRoleDao implements IRoleDao {
-    Map<String,Role> map =new HashMap<>();
+    Map<String, Role> map = new HashMap<>();
+
     @Override
     public void addRole(Role role) {
-        map.put(role.getRolename(),role);
+        map.put(role.getRoleName(), role);
     }
 
     @Override
     public void removeRole(Role role) {
-        map.remove(role.getRolename());
+        map.remove(role.getRoleName());
     }
 
     @Override

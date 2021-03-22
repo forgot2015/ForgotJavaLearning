@@ -11,18 +11,20 @@ public class ConcreteSubject implements Subject {
 
     @Override
     public void attach(Observer observer) {
+        System.out.println("attach " + observer);
         observerList.add(observer);
     }
 
     @Override
     public void detach(Observer observer) {
+        System.out.println("detach " + observer);
         observerList.remove(observer);
     }
 
     @Override
     public void notifyAllObserver(String string) {
         for (Observer o : observerList) {
-            o.update(string);
+            o.update(o + string);
         }
     }
 }

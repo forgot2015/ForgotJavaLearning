@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * Created by forgot on 2017/6/18.
- *不能用ArrayList，应该用HashMap
+ * 不能用ArrayList，应该用HashMap
  */
 public class MySQLUserDao implements IUserDao {
     List<User> userList = new ArrayList<>();
