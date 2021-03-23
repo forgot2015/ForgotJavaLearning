@@ -8,7 +8,6 @@ import schema.creation.abstractFactory.dao.user.IUserDao;
  * Created by forgot on 2017/6/18.
  */
 public interface IDaoFactory {
-
     IUserDao createUserDao();
     IProductDao createProductDao();
     IRoleDao createRoleDao();

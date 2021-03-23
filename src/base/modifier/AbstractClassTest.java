@@ -14,6 +14,7 @@ public class AbstractClassTest {
             public void AbstractMethod2() {
                 System.out.println("这是一个匿名内部类");
             }
+
             @Override
             void AbstractMethod3() {
 

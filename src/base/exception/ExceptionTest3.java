@@ -14,8 +14,8 @@ public class ExceptionTest3 {
     public static void main(String[] args) {
         /*测试各方法实际效果，可以每次执行一个方法测试*/
         exception1();
-//        exception2();
-//        exception3();
+        exception2();
+        exception3();
         System.out.println("测试main,有异常也不怕");
     }
 
@@ -29,7 +29,8 @@ public class ExceptionTest3 {
             /*这里已经捕获了异常，你可以用自定义方法来处理异常，也可以不处理，
             而将异常直接抛出，如果直接抛出，那么效果和在方法声明处 直接throws Exception是一样的*/
             System.out.println("测试Exception1，捕获异常，并直接抛出");
-            e.printStackTrace();
+//            若屏蔽下面这句,则不会打印异常信息
+//            e.printStackTrace();
         }
     }
 

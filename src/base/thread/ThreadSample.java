@@ -9,11 +9,11 @@ public class ThreadSample {
         myThread2.start();
     }
 
-    static  Thread myThread1 = new Thread(new Runnable() {
+    static Thread myThread1 = new Thread(new Runnable() {
         @Override
         public void run() {
-            for (int i = 0; i <3 ; i++) {
-                System.out.println("myThread1 "+i);
+            for (int i = 0; i < 3; i++) {
+                System.out.println("myThread1 " + i);
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
@@ -24,21 +24,21 @@ public class ThreadSample {
         }
     });
 
-   static  Thread myThread2 = new Thread(new Runnable() {
+    static Thread myThread2 = new Thread(new Runnable() {
         @Override
         public void run() {
-            for (int i = 0; i <3 ; i++) {
-                System.out.println("myThread2 "+i);
+            for (int i = 0; i < 3; i++) {
+                System.out.println("myThread2 " + i);
             }
         }
     });
 
 
-   public class MyThread extends Thread{
-       @Override
-       public void run() {
+    public class MyThread extends Thread {
+        @Override
+        public void run() {
 //           super.run();
-           System.out.println();
-       }
-   }
+            System.out.println();
+        }
+    }
 }

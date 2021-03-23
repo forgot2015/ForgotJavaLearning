@@ -10,7 +10,6 @@ public class ExceptionTest {
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("准备抛出异常");
         InputStream inputStream = new FileInputStream("text.txt");
-        System.out.println("这里不会再执行，因为程序已经发生异常了");
+        System.out.println("这里不会再执行，因为程序已经发生异常 中断了");
     }
-
 }

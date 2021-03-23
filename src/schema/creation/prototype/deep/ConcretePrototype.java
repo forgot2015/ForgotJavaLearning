@@ -1,4 +1,4 @@
-package schema.creation.prototype.simple;
+package schema.creation.prototype.deep;
 
 /**
  * Created by forgot on 2017/6/19.

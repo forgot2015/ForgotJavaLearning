@@ -4,11 +4,11 @@ import java.io.*;
 
 /**
  * Created by forgot on 2017/1/8.
+ * transient 关键字,短暂的, 被标注的字段将不会被序列化
  */
 public class TransientTest {
 
     public static void main(String[] args) {
-
         User user = new User();
         user.setUsername("Alexia");
         user.setPasswd("123456");
@@ -18,8 +18,7 @@ public class TransientTest {
         System.err.println("password: " + user.getPasswd());
 
         try {
-            ObjectOutputStream os = new ObjectOutputStream(
-                    new FileOutputStream("E:/user.txt"));
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("user.txt"));
             os.writeObject(user); // 将User对象写进文件
             os.flush();
             os.close();
@@ -30,7 +29,7 @@ public class TransientTest {
         }
         try {
             ObjectInputStream is = new ObjectInputStream(new FileInputStream(
-                    "E:/user.txt"));
+                    "user.txt"));
             user = (User) is.readObject(); // 从流中读取User的数据
             is.close();
 

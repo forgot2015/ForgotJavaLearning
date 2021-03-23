@@ -11,7 +11,7 @@ public class VariableSample {
 
     static int i = 0;
 
-    public static  void test1 ()  {
+    public static void test1() {
         i = 10;
     }
 }

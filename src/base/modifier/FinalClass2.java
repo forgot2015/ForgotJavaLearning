@@ -11,8 +11,8 @@ public class FinalClass2 extends FinalClass {
 //        System.out.println("这是TestFinal2n下的finalMethod1()方法");
 //    }
 
-    /*随不能重写，但可以重载*/
-    public static final void finalMethod1(String string){
-        System.out.println("这是FinalClass2下的finalMethod1()方法"+string);
+    /*虽然不能重写，但可以重载*/
+    public static final void finalMethod1(String string) {
+        System.out.println("这是FinalClass2下的finalMethod1()方法" + string);
     }
 }

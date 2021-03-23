@@ -15,5 +15,4 @@ public class InnerClassSingleton {
     private static class InnerClass {
         private static final InnerClassSingleton instance = new InnerClassSingleton();
     }
-
 }

@@ -22,10 +22,14 @@ public class FactoryTest {
         System.out.println(userDao.getUser("test"));
 
         System.out.println("---test OracleFactory---");
+//        创建工厂
         IFactory factory1 = new OracleFactory();
+//        创建产品DAO
         IUserDao userDao1 = factory1.createUserDao();
+//        创建具体产品
         User user = new User("forgot", "123456");
         User user1 = new User("baobei", "654321");
+//        添加产品
         userDao1.addUser(user);
         userDao1.addUser(user);
         userDao1.addUser(user1);

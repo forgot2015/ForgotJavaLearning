@@ -5,7 +5,6 @@ package base.modifier;
  */
 public class FinalClassTest {
     public static void main(String[] args) {
-
         System.out.println(FinalClass.MY_FINAL_STRING);
         /*此处调用的实际是FinalClass的finalMethod1()*/
         FinalClass2.finalMethod1();
@@ -24,3 +23,8 @@ public class FinalClassTest {
         finalClass4.finalMethod();
     }
 }
+
+//不能继承 final 类
+//class FinalClass5 extends FinalClass4{
+//
+//}

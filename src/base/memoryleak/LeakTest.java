@@ -1,19 +1,19 @@
 package base.memoryleak;
 
-import java.util.Arrays;
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by forgot on 2017/7/6.
+ * 堆溢出
  */
 public class LeakTest {
+    static class OOMObject {    }
     public static void main(String[] args) {
-        Vector v = new Vector(10);
-        for (int i = 1; i < 100; i++) {
-            Object o = new Object();
-            v.add(o);
-            o = null;
+        List<OOMObject> list = new ArrayList<>();
+        while(true) {
+            list.add(new OOMObject());
+            System.out.println("list.add(new OOMObject());");
         }
-        System.out.println(Arrays.toString(v.toArray()));
     }
 }

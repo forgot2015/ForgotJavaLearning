@@ -4,6 +4,7 @@ package base.thread;
  * Created by forgot on 2017/7/14.
  */
 public class ThreadSample2 {
+    private volatile boolean active;
 
     public static void main(String[] args) {
 //        Runnable runnable = new MyRunnable();
@@ -12,15 +13,14 @@ public class ThreadSample2 {
         ThreadSample2 threadSample2 = new ThreadSample2();
         threadSample2.myThread.start();
         try {
-            Thread.sleep(500);
+            Thread.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         threadSample2.myStop();
     }
 
-    private volatile boolean active;
-    Thread myThread = new Thread(new MyRunnable() {
+    Thread myThread = new Thread(new Runnable() {
         @Override
         public void run() {
             active = true;
@@ -28,7 +28,10 @@ public class ThreadSample2 {
             {
                 // 代码
                 int i = 1;
-                System.out.println(++i);
+                System.out.println("myThread:" + ++i);
+                for (int j = 0; j < 10; j++) {
+                    System.out.println("j = " + j);
+                }
             }
         }
     });
@@ -48,7 +51,7 @@ public class ThreadSample2 {
             {
                 // 代码
                 int i = 1;
-                System.out.println(++i);
+                System.out.println("MyRunnable:" + ++i);
             }
         }
 

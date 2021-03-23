@@ -3,7 +3,6 @@ interface TestInterface {
 
     interface InnerInterface {
         interface Inner2Interface {
-
         }
     }
 }

@@ -11,7 +11,8 @@ public class GenericSample {
         genericSample.print(1.3F);
         genericSample.print("wtf");
         printGeneric(1.3);
-        System.out.println(printGeneric(1.2));
+        printGeneric(666);
+        printGeneric2(233);
     }
 
     //方法重载的实现方式
@@ -31,11 +32,14 @@ public class GenericSample {
         System.out.println(d);
     }
 
-    //泛型的实现方式
+    //泛型的实现方式. 单泛型方法,返回值也是泛型
     public static <E> E printGeneric(E e) {
         System.out.println(e);
         return e;
     }
 
-
+    //泛型的实现方式. 单泛型方法
+    public static <K> void printGeneric2(K k) {
+        System.out.println(k);
+    }
 }

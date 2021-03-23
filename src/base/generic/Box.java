@@ -2,21 +2,22 @@ package base.generic;
 
 /**
  * Created by forgot on 2017/7/15.
+ * java 泛型
  */
 public class Box<T> {
-    private T t;
+    private T box;
 
-    public void add(T t) {
-        this.t = t;
+    public void add(T box) {
+        this.box = box;
     }
 
     public T get() {
-        return t;
+        return box;
     }
 
     public static void main(String[] args) {
-        Box<Integer> integerBox = new Box<Integer>();
-        Box<String> stringBox = new Box<String>();
+        Box<Integer> integerBox = new Box<>();
+        Box<String> stringBox = new Box<>();
 
         integerBox.add(new Integer(10));
         stringBox.add(new String("Hello World"));

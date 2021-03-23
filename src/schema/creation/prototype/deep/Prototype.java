@@ -1,4 +1,4 @@
-package schema.creation.prototype.shallow;
+package schema.creation.prototype.deep;
 
 /**
  * Created by forgot on 2017/6/19.
@@ -15,11 +15,14 @@ public class Prototype implements Cloneable {
     }
 
     public Prototype clone() {
+        Prototype prototype = null;
         try {
-            return (Prototype) super.clone();
-        } catch (Exception e) {
+            prototype = (Prototype) super.clone();
+            String cloneName = prototype.getName();
+            prototype.setName(cloneName);
+        } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
-        return null;
+        return prototype;
     }
 }

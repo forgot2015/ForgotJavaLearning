@@ -1,13 +1,16 @@
 package base.exception;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
+
 /**
  * Created by forgot on 2017/1/8.
- * 直接用exception5()方法 throw一个异常，此时在main函数也要用throws抛出异常，否则会报错
+ * 直接用exception()方法 throw一个异常，此时在main函数也要用throws抛出异常，否则会报错
  */
 public class ExceptionTest2 {
     public static void main(String[] args) throws Exception {
         exception();
-        System.out.println("这里不会再执行，因为程序已经发生异常了");
+        System.out.println("这里不会再执行，因为程序已经发生异常 中断了");
     }
 
     private static void exception() throws Exception {
