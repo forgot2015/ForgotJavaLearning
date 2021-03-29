@@ -6,6 +6,6 @@ package schema.structure.flyweight;
  * Time: 5:51 PM
  * Description:
  */
- interface IBike {
-  void billing(String name,int time);
+interface IBike {
+    void billing(String name, int time);
 }

@@ -38,6 +38,5 @@ public class FactoryTest {
         System.out.println(userDao1.toString());
         userDao1.removeUser(user1);
         System.out.println(userDao1.toString());
-
     }
 }

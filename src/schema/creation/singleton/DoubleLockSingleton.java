@@ -24,5 +24,4 @@ public class DoubleLockSingleton {
         }
         return instance;
     }
-
 }

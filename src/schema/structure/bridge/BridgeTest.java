@@ -11,7 +11,7 @@ package schema.structure.bridge;
  * 7. 缺点
  * 增加了系统的复杂性。
  * 不容易设计，抽象与实现的分离要设计得好比较有难度。
- *
+ * <p>
  * 作者：四月葡萄
  * 链接：https://www.jianshu.com/p/acf598db6d4d
  * 来源：简书
@@ -20,12 +20,11 @@ package schema.structure.bridge;
 public class BridgeTest {
     public static void main(String[] args) {
         Clothes tShirt = new TShirt();
-        Clothes uniform = new Uniform();
-
         Person coder = new Coder();
         coder.setClothes(tShirt);
         coder.dress();
 
+        Clothes uniform = new Uniform();
         Person student = new Student();
         student.setClothes(uniform);
         student.dress();

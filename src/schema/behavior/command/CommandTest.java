@@ -7,4 +7,10 @@ package schema.behavior.command;
  * Description:命令模式测试
  */
 public class CommandTest {
+    public static void main(String[] args) {
+        Receiver receiver = new Receiver();
+        Command command = new ShutdownCommand(receiver);
+        Invoker invoker = new Invoker(command);
+        invoker.action();
+    }
 }

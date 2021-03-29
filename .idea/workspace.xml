@@ -2,31 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="完成第三周习题">
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/bridge/BridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/bridge/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/bridge/Coder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/bridge/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/bridge/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/bridge/TShirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/bridge/Uniform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/composite/CompositeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/composite/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/flyweight/BikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/flyweight/FlyweightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/flyweight/IBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/flyweight/ShareBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/proxy/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/proxy/Dynamic/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/proxy/Dynamic/DynamicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/proxy/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/structure/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/command/ShutdownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/AddExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/ArithmeticExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/EqualExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/NumExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/SubExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/VarExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/iterator/Aggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/iterator/DeliveryAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/iterator/DeliveryIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/ResponsibilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/StrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/template/TemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/VisitorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/SchemaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/adapter/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/adapter/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/adapter/AdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/adapter/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/adapter/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/decorator/DecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/behavior/command/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/command/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/behavior/interpreter/InterpreterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/InterpreterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/behavior/iterator/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/iterator/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/behavior/state/base/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/state/base/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/creation/factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/prototype/deep/ConcretePrototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/prototype/deep/DeepTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/prototype/deep/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/singleton/DoubleLockSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/creation/singleton/DoubleLockSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/singleton/SimpleSington.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/creation/singleton/SimpleSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/structure/bridge/BridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/bridge/BridgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/structure/composite/CompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/composite/CompositeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/structure/flyweight/FlyweightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/flyweight/FlyweightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/structure/flyweight/IBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/flyweight/IBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/structure/flyweight/ShareBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/flyweight/ShareBike.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +163,7 @@
       <recent name="D:\Projects_github\ForgotJavaLearning\src\common\modifier" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyweightTest">
+  <component name="RunManager" selected="Application.IteratorTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -214,55 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schema.structure.adapter.AdapterTest" />
+    <configuration name="CommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schema.behavior.command.CommandTest" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schema.structure.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BridgeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schema.structure.bridge.BridgeTest" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schema.structure.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompositeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schema.structure.composite.CompositeTest" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schema.structure.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schema.structure.proxy.Dynamic.DynamicTest" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schema.structure.proxy.Dynamic.*" />
+          <option name="PATTERN" value="schema.behavior.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,13 +253,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyweightTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schema.structure.flyweight.FlyweightTest" />
+    <configuration name="InterpreterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schema.behavior.interpreter.InterpreterTest" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schema.structure.flyweight.*" />
+          <option name="PATTERN" value="schema.behavior.interpreter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schema.behavior.iterator.IteratorTest" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schema.behavior.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schema.behavior.state.base.StateTest" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schema.behavior.state.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoteStateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schema.behavior.state.vote.VoteStateTest" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schema.behavior.state.vote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,19 +474,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExceptionTest3" />
-      <item itemvalue="Application.DynamicTest" />
-      <item itemvalue="Application.AdapterTest" />
-      <item itemvalue="Application.BridgeTest" />
-      <item itemvalue="Application.CompositeTest" />
-      <item itemvalue="Application.FlyweightTest" />
+      <item itemvalue="Application.StateTest" />
+      <item itemvalue="Application.VoteStateTest" />
+      <item itemvalue="Application.CommandTest" />
+      <item itemvalue="Application.InterpreterTest" />
+      <item itemvalue="Application.IteratorTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlyweightTest" />
-        <item itemvalue="Application.CompositeTest" />
-        <item itemvalue="Application.BridgeTest" />
-        <item itemvalue="Application.AdapterTest" />
-        <item itemvalue="Application.DynamicTest" />
+        <item itemvalue="Application.IteratorTest" />
+        <item itemvalue="Application.InterpreterTest" />
+        <item itemvalue="Application.CommandTest" />
+        <item itemvalue="Application.VoteStateTest" />
+        <item itemvalue="Application.StateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +613,7 @@
       <workItem from="1616046461750" duration="299000" />
       <workItem from="1616379036824" duration="21264000" />
       <workItem from="1616510146806" duration="1936000" />
-      <workItem from="1616723275472" duration="10011000" />
+      <workItem from="1616723275472" duration="17123000" />
     </task>
     <task id="LOCAL-00001" summary="删除部分不用代码，添加基础知识">
       <created>1524130911441</created>

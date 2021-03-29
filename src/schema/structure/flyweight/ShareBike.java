@@ -15,6 +15,5 @@ public class ShareBike implements IBike {
         total = price * time;
 
         System.out.println(name + " 共花费 " + total + "元");
-
     }
 }
