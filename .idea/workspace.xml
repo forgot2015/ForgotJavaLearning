@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="完成第三周习题">
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/HouseMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/Landlord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/Lianjia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/Purchaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/memo/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/memo/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/memo/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/BeijingPostman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/GuangzhouPostman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/Postman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/ShanghaiPostman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/ChaseStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/EatingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/MoviesStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/ShoppingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/StrategyContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/template/PostA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/template/PostB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/template/PostTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/Busy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/Idler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/Web.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/Websites.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/mediator/MediatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/MediatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/memo/MemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/memo/MemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/responsibility/ResponsibilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/ResponsibilityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/schema/behavior/strategy/StrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/StrategyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/schema/behavior/template/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/template/TemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/behavior/visitor/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/visitor/VisitorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +141,7 @@
       <recent name="D:\Projects_github\ForgotJavaLearning\src\common\modifier" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrategyTest">
+  <component name="RunManager" selected="Application.VisitorTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -226,34 +217,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schema.behavior.iterator.IteratorTest" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schema.behavior.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schema.behavior.mediator.MediatorTest" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schema.behavior.mediator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="schema.behavior.memo.MemoTest" />
       <module name="ForgotJavaLearning" />
@@ -289,6 +252,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="schema.behavior.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schema.behavior.template.TemplateTest" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schema.behavior.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schema.behavior.visitor.VisitorTest" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schema.behavior.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -461,19 +452,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExceptionTest3" />
-      <item itemvalue="Application.IteratorTest" />
-      <item itemvalue="Application.MediatorTest" />
       <item itemvalue="Application.MemoTest" />
       <item itemvalue="Application.ResponsibilityTest" />
       <item itemvalue="Application.StrategyTest" />
+      <item itemvalue="Application.TemplateTest" />
+      <item itemvalue="Application.VisitorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorTest" />
+        <item itemvalue="Application.TemplateTest" />
         <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.ResponsibilityTest" />
         <item itemvalue="Application.MemoTest" />
-        <item itemvalue="Application.MediatorTest" />
-        <item itemvalue="Application.IteratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -600,7 +591,7 @@
       <workItem from="1616046461750" duration="299000" />
       <workItem from="1616379036824" duration="21264000" />
       <workItem from="1616510146806" duration="1936000" />
-      <workItem from="1616723275472" duration="21768000" />
+      <workItem from="1616723275472" duration="26573000" />
     </task>
     <task id="LOCAL-00001" summary="删除部分不用代码，添加基础知识">
       <created>1524130911441</created>

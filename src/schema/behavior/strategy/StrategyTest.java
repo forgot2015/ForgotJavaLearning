@@ -13,6 +13,8 @@ package schema.behavior.strategy;
  * 策略模式属于行为型模式。
  * 策略模式提供了一组算法给客户端调用，使得客户端能够根据不同的条件来选择不同的策略来解决不同的问题。
  * 如排序算法，可以使用冒泡排序、快速排序等等。
+ *
+ * Android 中,RecyclerView中调用 LayoutManager 就是策略模式,由用户自行选择要用哪种策略,Adapter也是有多种选择
  */
 public class StrategyTest {
     public static void main(String[] args) {
