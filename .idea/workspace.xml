@@ -5,97 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="完成第三周习题">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlStr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/generic/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/loadsequence/InitOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/second/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/second/MediatorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/second/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/creation/prototype/deep/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/creation/prototype/deep/DeepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema/creation/prototype/deep/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/AlgorithmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/insert/BinaryInsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/swordoffer/Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/swordoffer/Solution6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/annotation/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/sample/ByteSample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/sample/FormatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/SchemaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/StudyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/AbstractSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/AbstractSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/CommandLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/CommandLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlStr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/TestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/HttpSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/HttpSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/OperatorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/OperatorSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/OperatorSample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/OperatorSample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/StreamSample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/StringSample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/StringSpliteSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/StringSplitSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/TimeExchange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/extend/FatherClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/extend/FatherClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/extend/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/extend/SubClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/generic/GenericSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/generic/GenericSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/memoryleak/LeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/memoryleak/HeapLeakTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/memoryleak/StackLeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/memoryleak/StackOverFlowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/thread/ThreadSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/thread/ThreadSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/thread/ThreadSample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/thread/ThreadSample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirstjava/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstjava/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirstjava/FourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstjava/FourTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirstjava/Loopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstjava/Loopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirstjava/MutilThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstjava/MutilThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirstjava/nine/NineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstjava/nine/NineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirstjava/two/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstjava/two/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirstjava/two/GuessGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstjava/two/GuessGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icourse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icourse/exercise5/NewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise5/NewsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icourse/exercise6/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icourse/exercise6/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysql/Segment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysql/Segment1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/GuardStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/GuardStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/InitOrderDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/InitOrderSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/loadsequence/InitOrderSub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/InitOrderSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/loadsequence/InitOrderSuper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/SwitchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/SwitchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/callback/FooBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/callback/FooBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/callback/ICallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/callback/CallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/callback/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/callback/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/callback/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/callback/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/reflection/Reflection1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/thread/SwitchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/thread/ThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/thread/ThreadTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/command/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/command/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/command/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/command/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/command/ShutdownCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/command/ShutdownCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/interpreter/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/interpreter/InterpreterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/interpreter/InterpreterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/iterator/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/iterator/Aggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/mediator/HouseMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/HouseMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/mediator/Lianjia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/mediator/Lianjia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/memo/MemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/memo/MemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/observer/base/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/observer/base/ObserverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/observer/onclickcallback/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/observer/onclickcallback/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/responsibility/BeijingPostman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/BeijingPostman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/responsibility/GuangzhouPostman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/GuangzhouPostman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/responsibility/ResponsibilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/responsibility/ResponsibilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/state/base/ConcreteState1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/state/base/OpenState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/state/base/ConcreteState2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/state/base/CloseState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/state/base/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/state/base/StateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/strategy/ChaseStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/ChaseStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/strategy/ShoppingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/ShoppingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/strategy/StrategyContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/strategy/StrategyContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/behavior/template/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/behavior/template/TemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/bridge/BridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/bridge/BridgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/composite/CompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/composite/CompositeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/decorator/ContextImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/decorator/ContextImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/structure/decorator/ContextThemeWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/structure/decorator/ContextThemeWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usage/MAT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/exception/ExceptionTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/exception/ExceptionTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/memoryleak/HeapLeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/leak/HeapLeakTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/memoryleak/StackOverFlowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/leak/StackOverFlowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/effectivejava/StopThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/effectivejava/StopThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/FourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/FourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/Loopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/Loopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/MutilThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/MutilThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/SimpleGui1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/SimpleGui1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/SwingTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/SwingTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/nine/NineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/nine/NineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/nine/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/nine/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/two/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/two/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/two/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/two/DogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/two/GameLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/two/GameLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/two/GuessGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/two/GuessGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstjava/two/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/headfirstjava/two/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise4/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise4/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise4/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise4/ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise4/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise4/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise4/Return.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise4/Return.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise4/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise4/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise4/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise5/NewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise5/NewsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise6/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise6/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise6/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise6/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icourse/exercise6/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/icourse/exercise6/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/Segment1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/DeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/GuardStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/GuardStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/SwitchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/callback/CallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/callback/CallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/callback/FooBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/callback/FooBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/callback/OnClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/callback/OnClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/callback/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/callback/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/callback/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/callback/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/loadsequence/InitOrderSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/loadsequence/InitOrderSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/loadsequence/InitOrderSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/loadsequence/InitOrderSuper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/loadsequence/InitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/loadsequence/InitOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pat/problemB/problem1001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/problem1001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/AnnotationSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ByteSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/ByteSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ByteSample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/ByteSample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ByteSample3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CRC16Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/EnumSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/EnumSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/FormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/JavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/JavaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/OutOfMemoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/OutOfMemoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/StackOverFlowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/StackOverFlowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/StringSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/StringSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ThreadRunningSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/sample/ThreadRunningSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/prototype/deep/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/creation/prototype/deep/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/creation/prototype/deep/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/creation/prototype/deep/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/MultiMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MultiMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/SortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/counting/Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/counting/Bucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/counting/Counting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/counting/Counting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/counting/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/counting/RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/exchange/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/exchange/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/exchange/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/exchange/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/insert/BinaryInsertSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/insert/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/insert/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/insert/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/insert/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/select/BinarySelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/select/BinarySelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/select/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/select/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/select/SimpleSelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/select/SimpleSelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordoffer/Solution4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordoffer/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/swordoffer/Solution5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordoffer/Solution6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordoffer/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/swordoffer/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +205,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
@@ -222,7 +229,7 @@
       <recent name="D:\Projects_github\ForgotJavaLearning\src\common\modifier" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.SortTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -284,6 +291,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnumSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.sample.EnumSample" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionTest3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.exception.ExceptionTest3" />
       <module name="ForgotJavaLearning" />
@@ -298,13 +319,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuardStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.GuardStatement" />
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.Exercise" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.sample.FormatTest" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.loadsequence.*" />
+          <option name="PATTERN" value="base.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,13 +341,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.loadsequence.InitOrderTest" />
+    <configuration name="JavaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.sample.JavaTest" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.loadsequence.*" />
+          <option name="PATTERN" value="base.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,41 +355,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.SwitchTest" />
+    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.SortTest" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.loadsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.Test" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.Test2" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.*" />
+          <option name="PATTERN" value="algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -533,18 +534,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExceptionTest3" />
-      <item itemvalue="Application.SwitchTest" />
-      <item itemvalue="Application.GuardStatement" />
-      <item itemvalue="Application.InitOrderTest" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.EnumSample" />
+      <item itemvalue="Application.FormatTest" />
+      <item itemvalue="Application.JavaTest" />
+      <item itemvalue="Application.Exercise" />
+      <item itemvalue="Application.SortTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.InitOrderTest" />
-        <item itemvalue="Application.GuardStatement" />
+        <item itemvalue="Application.SortTest" />
+        <item itemvalue="Application.Exercise" />
+        <item itemvalue="Application.JavaTest" />
+        <item itemvalue="Application.FormatTest" />
+        <item itemvalue="Application.EnumSample" />
       </list>
     </recent_temporary>
   </component>
@@ -676,7 +678,7 @@
       <workItem from="1617155485684" duration="149000" />
       <workItem from="1617156000430" duration="7137000" />
       <workItem from="1617172084132" duration="201000" />
-      <workItem from="1617172316802" duration="644000" />
+      <workItem from="1617172316802" duration="6819000" />
     </task>
     <task id="LOCAL-00001" summary="删除部分不用代码，添加基础知识">
       <created>1524130911441</created>
@@ -752,12 +754,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>23</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -782,67 +784,67 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>47</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>48</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>50</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>49</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>51</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>52</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/ByteSample2.java</url>
+          <url>file://$PROJECT_DIR$/src/base/sample/ByteSample2.java</url>
           <line>53</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/icourse/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/study/icourse/Main.java</url>
           <line>173</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/icourse/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/study/icourse/Main.java</url>
           <line>174</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/icourse/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/study/icourse/Main.java</url>
           <line>175</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/icourse/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/study/icourse/Main.java</url>
           <line>176</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/icourse/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/study/icourse/Main.java</url>
           <line>177</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/icourse/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/study/icourse/Main.java</url>
           <line>178</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
@@ -852,9 +854,9 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/icourse/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/study/icourse/Main.java</url>
           <line>172</line>
-          <properties class="icourse.Main">
+          <properties class="algorithm.icourse.Main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="28" />

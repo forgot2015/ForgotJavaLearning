@@ -48,7 +48,6 @@ public class Main {
         return year + strMonth + strDay + strHour + strMinute + strSecond;
     }
 
-
     /**
      * long类型秒 转化为时分秒显示
      * 如1234秒表示为 20:34

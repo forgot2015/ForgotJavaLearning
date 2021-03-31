@@ -1,8 +1,5 @@
 package base.exception;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
-
 /**
  * Created by forgot on 2017/1/8.
  * 直接用exception()方法 throw一个异常，此时在main函数也要用throws抛出异常，否则会报错
