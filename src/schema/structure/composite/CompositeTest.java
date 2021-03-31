@@ -5,6 +5,7 @@ package schema.structure.composite;
  * Date: 2021/3/26
  * Time: 5:13 PM
  * Description:组合模式.将对象组合成树形结构以表示“部分-整体”的层次结构，使得用户对单个对象和组合对象的使用具有一致性。
+ * Android 中的 View 和 ViewGroup 就是组合模式
  */
 public class CompositeTest {
     public static void main(String[] args) {

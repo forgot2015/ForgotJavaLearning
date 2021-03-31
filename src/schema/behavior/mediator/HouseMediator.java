@@ -7,5 +7,6 @@ package schema.behavior.mediator;
  * Description:
  */
 public interface HouseMediator {//房屋中介类
+
     void notice(Person person, String msg);//通知方法
 }

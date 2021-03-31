@@ -9,15 +9,10 @@ package schema.behavior.memo;
  * <p>
  * 备忘录模式比较适合用于功能复杂，但是需要维护和纪录历史的地方，或者是需要保存一个或者多个属性的地方；在未来某个时刻需要时，
  * 将其还原到原来纪录的状态。
- *
- * Android中的Activity就提供了状态保存机制来保证Activity在被系统回收后能够恢复当前Activity的数据。这一机制实际上就是onSaveInstanceState和onRestoreInstanceState。onSaveInstanceState就是用来保存当前Activity的状态，onRestoreInstanceState则是用来恢复Activity的状态。
- *
- *
- *
- * 作者：四月葡萄
- * 链接：https://www.jianshu.com/p/c8a63849d629
- * 来源：简书
- * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+ * <p>
+ * Android中的Activity就提供了状态保存机制来保证Activity在被系统回收后能够恢复当前Activity的数据。
+ * 这一机制实际上就是onSaveInstanceState和onRestoreInstanceState。onSaveInstanceState就是用来保存当前Activity的状态，
+ * onRestoreInstanceState则是用来恢复Activity的状态。
  */
 public class MemoTest {
     public static void main(String[] args) {

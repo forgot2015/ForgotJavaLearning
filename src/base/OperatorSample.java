@@ -6,20 +6,20 @@ package base;
 public class OperatorSample {
     public static void main(String[] args) {
         System.out.println("=====算术运算符=====");
-        algothmOperator();
+        algorithmOperator();
         System.out.println("=====关系运算符=====");
-        relationOpaerator();
+        relationOperator();
         System.out.println("=====位运算符=====");
         bitOperator();
         System.out.println("=====逻辑运算符=====");
-        logicOpaerator();
+        logicOperator();
 
 
 
     }
 
 
-    public static void algothmOperator() {
+    public static void algorithmOperator() {
         //算术运算符
         int a = 10;
         int b = 20;
@@ -38,7 +38,7 @@ public class OperatorSample {
         System.out.println("++d   = " + (++d));
     }
 
-    public static void relationOpaerator() {
+    public static void relationOperator() {
         //关系运算符
         int a = 10;
         int b = 20;
@@ -79,7 +79,7 @@ public class OperatorSample {
     /**
      * 逻辑运算符
      */
-    public static void logicOpaerator(){
+    public static void logicOperator(){
         boolean a = true;
         boolean b = false;
         System.out.println("a && b = " + (a&&b));

@@ -13,7 +13,7 @@ public class ThreadSample {
         @Override
         public void run() {
             for (int i = 0; i < 3; i++) {
-                System.out.println("myThread1 " + i);
+                System.out.println(System.currentTimeMillis() + ",myThread1 " + i);
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
@@ -28,7 +28,7 @@ public class ThreadSample {
         @Override
         public void run() {
             for (int i = 0; i < 3; i++) {
-                System.out.println("myThread2 " + i);
+                System.out.println(System.currentTimeMillis() + ",myThread2 " + i);
             }
         }
     });

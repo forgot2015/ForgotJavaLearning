@@ -12,5 +12,10 @@ public class CommandTest {
         Command command = new ShutdownCommand(receiver);
         Invoker invoker = new Invoker(command);
         invoker.action();
+
+        Receiver receiver1 = new Receiver();
+        Command command1 = new ShutdownCommand(receiver1);
+        Invoker invoker1 = new Invoker(command1);
+        invoker1.action();
     }
 }

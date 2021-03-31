@@ -6,24 +6,27 @@ package headfirstjava;
  */
 public class Doctor {
     boolean worksAtHospital;
-    void treatPatient(){
+
+    void treatPatient() {
         System.out.println("执行检查");
     }
-
 }
-class FamiltDoctor extends Doctor{
+
+class FamilyDoctor extends Doctor {
     boolean makesHouseCalls;
-    void giveAdvice(){
+
+    void giveAdvice() {
         System.out.println("提出诊断");
     }
 }
 
-class Surgeon extends Doctor{
+class Surgeon extends Doctor {
     @Override
-    void treatPatient(){
+    void treatPatient() {
         System.out.println("进行手术");
     }
-    void makeOperation(){
+
+    void makeOperation() {
         System.out.println("做手术");
     }
 }

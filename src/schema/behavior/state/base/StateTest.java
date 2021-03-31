@@ -8,8 +8,8 @@ package schema.behavior.state.base;
  */
 public class StateTest {
     public static void main(String[] args) {
-        State state1 = new ConcreteState1();
-        State state2 = new ConcreteState2();
+        State state1 = new OpenState();
+        State state2 = new CloseState();
         Context context = new Context();
         context.setState(state1);
         context.request("test");

@@ -1,9 +1,9 @@
-package other;
+package other.loadsequence;
 
 /**
  * Created by forgot on 6/6/2017.
  */
-public class InitOrderSub extends InitOrderSuper{
+public class InitOrderSub extends InitOrderSuper {
 
     public static void staticMethod() {
         System.out.println("子类静态方法");

@@ -22,7 +22,7 @@ public class ContextThemeWrapper extends ContextWrapper {
     @Override
     public void setTheme(String theme) {
         this.theme = "ContextThemeWrapper:" + theme;
-        System.out.println("设置玩游戏的场景: " + this.theme);
+        System.out.println("设置玩游戏的主题: " + this.theme);
     }
 
     @Override

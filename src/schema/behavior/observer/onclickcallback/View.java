@@ -12,8 +12,8 @@ public class View {
     }
 
     public void touchScreen() {
-        if (null != onClickListener) {
-            System.out.println(onClickListener+":你点击了屏幕");
+        if (onClickListener != null) {
+            System.out.println(onClickListener + ":你点击了屏幕");
             onClickListener.onClick();
         }
     }

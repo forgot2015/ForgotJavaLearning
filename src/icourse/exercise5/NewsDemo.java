@@ -9,7 +9,6 @@ package icourse.exercise5;
 
 public class NewsDemo {
     public static void main(String[] args) {
-
         //模拟有一家新闻社
         NewsAgency bbc = new NewsAgency("BBC");
         //订阅该社的新闻
@@ -79,7 +78,6 @@ class NewsAgency {
         for (int i = 0; i < listenerCnt; i++) {
             listeners[i].newsArrived(event);
         }
-
     }
 }
 
@@ -90,7 +88,7 @@ class MyListener implements Listener {
     //当接收到消息后，进行一些显示
     public void newsArrived(NewsEvent e) {
         if (e.level > 5) System.out.println("warning :");
-        System.out.println("please note," + e.text + " happed!");
+        System.out.println("please note," + e.text + " happen!");
     }
 }
 

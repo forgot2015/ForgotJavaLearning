@@ -4,7 +4,7 @@ package schema.behavior.command;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 11:08 AM
- * Description:命令接受者
+ * Description:命令接收者
  */
 public class Receiver {
     public void action() {//接收者执行具体的操作

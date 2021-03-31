@@ -8,12 +8,14 @@ package other;
  */
 public class GuardStatement {
     public static void main(String[] args) {
-        whatDay(2);
+        whatDayWithIfElse(2);
         whatDayWithGuardStatement(3);
         whatDayWithSwitch(4);
+        whatDayWithState(5);
     }
 
-    static void whatDay(int i) {
+    static void whatDayWithIfElse(int i) {
+        System.out.println("whatDayWithIfElse");
         if (i == 1) {
             System.out.println("星期一");
         } else if (i == 2) {
@@ -32,6 +34,7 @@ public class GuardStatement {
     }
 
     static void whatDayWithGuardStatement(int i) {
+        System.out.println("whatDayWithGuardStatement");
         if (i == 1) {
             System.out.println("星期一");
             return;
@@ -63,6 +66,7 @@ public class GuardStatement {
     }
 
     static void whatDayWithSwitch(int i) {
+        System.out.println("whatDayWithSwitch");
         switch (i) {
             case 1:
                 System.out.println("星期一");
@@ -87,6 +91,94 @@ public class GuardStatement {
                 break;
             default:
                 break;
+        }
+    }
+
+    private static void whatDayWithState(int i) {
+        System.out.println("whatDayWithState");
+        DayManager dayManager = new DayManager();
+        dayManager.setDayState(i);
+    }
+
+    static class DayManager {
+        private DayState dayState;
+
+        public void setDayState(int day) {
+            if (day == 1) {
+                dayState = new Monday();
+            } else if (day == 2) {
+                dayState = new Tuesday();
+            } else if (day == 3) {
+                dayState = new Wednesday();
+            } else if (day == 4) {
+                dayState = new Thursday();
+            } else if (day == 5) {
+                dayState = new Friday();
+            } else if (day == 6) {
+                dayState = new Saturday();
+            } else if (day == 7) {
+                dayState = new Sunday();
+            }
+            dayState.dayPrint();
+        }
+    }
+
+    interface DayState {
+        void dayPrint();
+    }
+
+    static class Monday implements DayState {
+        @Override
+        public void dayPrint() {
+            System.out.println("星期一");
+        }
+    }
+
+    static class Tuesday implements DayState {
+
+        @Override
+        public void dayPrint() {
+            System.out.println("星期二");
+        }
+    }
+
+    static class Wednesday implements DayState {
+
+        @Override
+        public void dayPrint() {
+            System.out.println("星期三");
+        }
+    }
+
+    static class Thursday implements DayState {
+
+        @Override
+        public void dayPrint() {
+            System.out.println("星期四");
+        }
+    }
+
+    static class Friday implements DayState {
+
+        @Override
+        public void dayPrint() {
+            System.out.println("星期五");
+        }
+    }
+
+    static class Saturday implements DayState {
+
+        @Override
+        public void dayPrint() {
+            System.out.println("星期六");
+        }
+    }
+
+    static class Sunday implements DayState {
+
+        @Override
+        public void dayPrint() {
+            System.out.println("星期天");
         }
     }
 }

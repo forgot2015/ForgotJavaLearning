@@ -7,9 +7,6 @@ public class ThreadSample2 {
     private volatile boolean active;
 
     public static void main(String[] args) {
-//        Runnable runnable = new MyRunnable();
-//        new Thread(MyRunnable).start();
-
         ThreadSample2 threadSample2 = new ThreadSample2();
         threadSample2.myThread.start();
         try {
@@ -24,9 +21,7 @@ public class ThreadSample2 {
         @Override
         public void run() {
             active = true;
-            while (active) // line 1
-            {
-                // 代码
+            while (active) {
                 int i = 1;
                 System.out.println("myThread:" + ++i);
                 for (int j = 0; j < 10; j++) {
@@ -38,7 +33,7 @@ public class ThreadSample2 {
 
     //令线程停止的方法
     public void myStop() {
-        active = false; // line 2
+        active = false;
         System.out.println("线程停止");
     }
 
@@ -47,8 +42,7 @@ public class ThreadSample2 {
 
         public void run() {
             active = true;
-            while (active) // line 1
-            {
+            while (active) {
                 // 代码
                 int i = 1;
                 System.out.println("MyRunnable:" + ++i);
@@ -56,7 +50,7 @@ public class ThreadSample2 {
         }
 
         public void stop() {
-            active = false; // line 2
+            active = false;
         }
     }
 }

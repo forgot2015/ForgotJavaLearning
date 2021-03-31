@@ -7,7 +7,7 @@ package headfirstjava;
 public class FourTest {
     public static void main(String[] args) {
         stringTest(new String[]{"name", "dog", "what"});
-        System.out.println(calcArea(100000000,100000000));
+        System.out.println(calcArea(100000000, 100000000));
     }
 
     static void stringTest(Object... args) {
@@ -16,8 +16,8 @@ public class FourTest {
         }
     }
 
-   static  int calcArea(int height,int width){
-        return  height*width;
+    static int calcArea(int height, int width) {
+        return height * width;
     }
 
 }

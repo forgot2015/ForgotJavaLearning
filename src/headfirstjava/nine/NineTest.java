@@ -11,8 +11,6 @@ public class NineTest {
 //        o.setName
         System.out.println(o.hashCode());
     }
-
-
 }
 
 class Dog {

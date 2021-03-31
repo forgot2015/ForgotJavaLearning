@@ -2,7 +2,6 @@ package schema.behavior.observer.base;
 
 /**
  * Created by forgot on 2017/6/16.
- *
  */
 public class ObserverTest {
     public static void main(String[] args) {

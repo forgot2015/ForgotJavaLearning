@@ -1,7 +1,13 @@
 package base;
 
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by forgot on 2017/7/26.
@@ -14,37 +20,22 @@ public class HttpSample {
     public static void readContentFromPost() {
         try {
             // Post请求的url，与get不同的是不需要带参数
-            URL postUrl = new URL("http://app-buy-api.zjxfyb.com/api/order/del?order_sn=31707262131036268478");
+            URL postUrl = new URL("http://quan.suning.com/getSysTime.do");
             // 打开连接
             HttpURLConnection connection = (HttpURLConnection) postUrl.openConnection();
             //打开读写属性，默认均为false
             connection.setDoOutput(true);
             connection.setDoInput(true);
             // 设置请求方式，默认为GET
-            connection.setRequestMethod("POST");
-            // Post 请求不能使用缓存
-            connection.setUseCaches(false);
-            connection.setInstanceFollowRedirects(true);
+            connection.setRequestMethod("GET");
             connection.connect();
-//            DataOutputStream out = new DataOutputStream(connection
-//                    .getOutputStream());
-//            //正文内容其实跟get的URL中'?'后的参数字符串一致
-//            String content = " firstname= " + URLEncoder.encode(" 一个大肥人 ", "utf-8");
-//            out.writeBytes(content);
-//            out.flush();
-//            out.close(); // flush and close
-//            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-//            String line;
-//            System.out.println(" ============================= ");
-//            System.out.println(" Contents of post request ");
-//            System.out.println(" ============================= ");
-//            while ((line = reader.readLine()) != null) {
-//                System.out.println(line);
-//            }
-//            System.out.println(" ============================= ");
-//            System.out.println(" Contents of post request ends ");
-//            System.out.println(" ============================= ");
-//            reader.close();
+
+            // 定义 BufferedReader输入流来读取URL的响应
+            BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            String line;
+            while ((line = in.readLine()) != null) {
+                System.out.println(line);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }

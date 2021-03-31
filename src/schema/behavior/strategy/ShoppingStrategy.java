@@ -9,6 +9,6 @@ package schema.behavior.strategy;
 public class ShoppingStrategy implements ChaseStrategy{
     @Override
     public void chase() {
-        System.out.println("通过购物策略追女生");
+        System.out.println("通过去购物策略追女生");
     }
 }

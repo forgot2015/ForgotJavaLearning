@@ -4,7 +4,7 @@ package schema.behavior.command;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 11:09 AM
- * Description:
+ * Description:关机命令
  */
 public class ShutdownCommand implements Command {
     private Receiver receiver;

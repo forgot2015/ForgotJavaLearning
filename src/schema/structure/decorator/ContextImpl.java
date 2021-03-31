@@ -12,7 +12,7 @@ public class ContextImpl extends Context{
     @Override
     public void setTheme(String theme) {
         this.theme = "ContextImpl:"+theme;
-        System.out.println("设置玩游戏的场景:"+this.theme);
+        System.out.println("设置玩游戏的主题:"+this.theme);
     }
 
     @Override

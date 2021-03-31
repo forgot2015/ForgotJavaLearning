@@ -1,4 +1,4 @@
-package other;
+package other.loadsequence;
 
 /**
  * Created by forgot on 6/6/2017.
@@ -8,8 +8,6 @@ public class InitOrderSuper {
         //隐藏下面两句，会出现静态代码块+静态变量
         staticMethod();
         new InitOrderSuper();
-
-
     }
 
     public static void staticMethod() {

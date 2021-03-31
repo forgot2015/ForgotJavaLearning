@@ -7,7 +7,7 @@ public class TestClass {
     /**
      * 可能会抛出异常的方法
      */
-    public void testException()  {
+    public void testException() {
         try {
             int i = 2 / 0;
         } catch (Exception e) {

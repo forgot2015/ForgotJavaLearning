@@ -23,11 +23,11 @@ public class ResponsibilityTest {
         shanghaiPostman.nextPostman = guangzhouPostman;
 
         //处理不同地区的快递，都是从首结点北京快递员开始
-        System.out.println("有一个上海快递需要派送:");
+        System.out.println("---有一个上海快递需要派送:---");
         beijingPostman.handleCourier("Shanghai");
-        System.out.println("有一个广州快递需要派送:");
+        System.out.println("---有一个广州快递需要派送:---");
         beijingPostman.handleCourier("Guangzhou");
-        System.out.println("有一个美国快递需要派送:");
+        System.out.println("---有一个美国快递需要派送:---");
         beijingPostman.handleCourier("America");
     }
 }

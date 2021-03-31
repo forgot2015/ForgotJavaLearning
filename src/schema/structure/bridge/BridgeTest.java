@@ -30,6 +30,5 @@ public class BridgeTest {
         student.dress();
         student.setClothes(tShirt);
         student.dress();
-
     }
 }

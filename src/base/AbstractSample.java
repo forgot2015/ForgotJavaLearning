@@ -2,6 +2,7 @@ package base;
 
 /**
  * Created by forgot on 2017/7/29.
+ * 匿名内部类
  */
 public abstract class AbstractSample {
     //    本抽象类的构造函数

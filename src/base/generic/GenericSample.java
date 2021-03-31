@@ -2,6 +2,7 @@ package base.generic;
 
 /**
  * Created by forgot on 2017/7/8.
+ * 泛型
  */
 public class GenericSample {
     public static void main(String[] args) {

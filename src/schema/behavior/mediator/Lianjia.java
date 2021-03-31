@@ -7,8 +7,8 @@ package schema.behavior.mediator;
  * Description:
  */
 public class Lianjia implements HouseMediator {//链家，实现HouseMediator
-    Purchaser mPurchaser;
-    Landlord mLandlord;
+    private Purchaser mPurchaser;
+    private Landlord mLandlord;
 
     public void setPurchaser(Purchaser purchaser) {//设置买房者
         mPurchaser = purchaser;
@@ -17,7 +17,6 @@ public class Lianjia implements HouseMediator {//链家，实现HouseMediator
     public void setLandlord(Landlord landlord) {//设置房东
         mLandlord = landlord;
     }
-
 
     @Override
     public void notice(Person person, String message) {//发送通知

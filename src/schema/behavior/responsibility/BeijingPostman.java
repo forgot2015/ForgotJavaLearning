@@ -13,10 +13,10 @@ public class BeijingPostman extends Postman {//北京快递员
         if (address.equals("Beijing")) {//北京地区的则派送
             System.out.println("派送到北京");
         } else {//否则交给下一个快递员去处理
-            if (nextPostman != null){
+            if (nextPostman != null) {
                 System.out.println("北京处理不了,交由下一快递员派送");
                 nextPostman.handleCourier(address);
-            }else {
+            } else {
                 System.out.println("没有快递员能派送,快递将原路打回");
             }
         }

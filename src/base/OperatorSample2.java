@@ -9,5 +9,9 @@ public class OperatorSample2 {
         String s = Integer.toBinaryString(b);
         System.out.println(b);
         System.out.println(s);
+        int c =  -20>>4;
+        int d =  20>>4;
+        System.out.println(c);
+        System.out.println(d);
     }
 }

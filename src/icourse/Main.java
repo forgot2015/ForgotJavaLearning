@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Main {
     //期末考试
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int input = scanner.nextInt();
-        if (input == 0) {
-            System.out.println(32);
-        } else {
-            String byteStr = Integer.toBinaryString(input);
-            System.out.println(32 - byteStr.length());
-        }
-    }
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        int input = scanner.nextInt();
+//        if (input == 0) {
+//            System.out.println(32);
+//        } else {
+//            String byteStr = Integer.toBinaryString(input);
+//            System.out.println(32 - byteStr.length());
+//        }
+//    }
 
     //java练习7.1
 //    static StringBuilder str = new StringBuilder();
@@ -85,9 +85,7 @@ public class Main {
 //            str.append(strings[i].length()).append(" ");
 //        }
 //        System.out.print(str.toString().trim());
-//
 //    }
-
 
 //    //java练习4.2
 //    public static void main(String[] args) {
