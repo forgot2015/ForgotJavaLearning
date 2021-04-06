@@ -1,4 +1,4 @@
-package base;
+package base.net;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

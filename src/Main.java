@@ -1,13 +1,12 @@
 import java.util.*;
 
 public class Main {
-    static Stack<Integer> stack1 = new Stack<Integer>();
+    static Stack<Integer> stack1 = new Stack<>();
     private static String str;
 
     public static void main(String[] args) {
         String[] strs = new String[]{};
 //        strs[1] = "1";
-
     }
 
     private static void addItem(List list, Integer i) {

@@ -1,4 +1,4 @@
-package base;
+package base.modifier;
 
 interface TestInterface {
     int i = 3;
