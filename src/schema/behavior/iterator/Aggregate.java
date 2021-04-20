@@ -15,5 +15,8 @@ public interface Aggregate {
 
     void remove(String str);
 
-    Iterator iterator();//返回容器的迭代器
+    /**
+     * @return 返回容器的迭代器
+     */
+    Iterator iterator();
 }

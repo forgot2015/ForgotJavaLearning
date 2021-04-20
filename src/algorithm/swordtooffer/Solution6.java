@@ -1,4 +1,4 @@
-package algorithm.swordoffer;
+package algorithm.swordtooffer;
 
 /**
  * Created by forgot on 5/24/2017.

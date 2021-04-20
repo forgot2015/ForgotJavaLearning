@@ -1,7 +1,7 @@
 package schema.structure.bridge;
 
 /**
- * Author: zongfulin
+ * @author zongfulin
  * Date: 2021/3/26
  * Time: 5:09 PM
  * Description:

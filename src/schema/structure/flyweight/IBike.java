@@ -7,5 +7,11 @@ package schema.structure.flyweight;
  * Description:
  */
 interface IBike {
+    /**
+     * 支付账单
+     *
+     * @param name
+     * @param time
+     */
     void billing(String name, int time);
 }

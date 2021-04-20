@@ -1,4 +1,4 @@
-package study.headfirstjava.two;
+package book.headfirstjava.two;
 
 /**
  * Created by forgot on 2017/6/25.
@@ -6,7 +6,7 @@ package study.headfirstjava.two;
 public class DogTest {
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.size =10;
+        dog.size = 10;
         dog.bark();
     }
 }

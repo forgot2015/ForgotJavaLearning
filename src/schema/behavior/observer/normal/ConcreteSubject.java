@@ -11,10 +11,12 @@ public class ConcreteSubject implements Subject {
 
     private String subjectState;
 
+    @Override
     public String getSubjectState() {
         return subjectState;
     }
 
+    @Override
     public void setSubjectState(String subjectState) {
         this.subjectState = subjectState;
         notifyAllObserver();

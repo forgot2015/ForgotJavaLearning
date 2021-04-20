@@ -1,4 +1,4 @@
-package study.headfirstjava;
+package book.headfirstjava;
 
 import javax.swing.*;
 import java.awt.*;

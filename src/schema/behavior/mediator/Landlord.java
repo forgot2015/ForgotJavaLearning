@@ -4,9 +4,9 @@ package schema.behavior.mediator;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 2:14 PM
- * Description:
+ * Description:房东类
  */
-public class Landlord extends Person {//房东者类，继承Person
+public class Landlord extends Person {
 
     public Landlord(HouseMediator houseMediator) {
         super(houseMediator);

@@ -22,6 +22,8 @@ public class Calculator {//计算器类
             case "-":
                 mExpression = new SubExpression(new VarExpression(split[0]), new VarExpression(split[2]));
                 break;
+            default:
+                break;
         }
 
     }

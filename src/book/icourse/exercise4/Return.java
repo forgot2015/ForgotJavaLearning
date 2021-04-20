@@ -1,4 +1,4 @@
-package study.icourse.exercise4;
+package book.icourse.exercise4;
 
 /**
  * 还书接口

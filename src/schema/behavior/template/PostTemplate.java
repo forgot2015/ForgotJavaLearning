@@ -23,7 +23,10 @@ public abstract class PostTemplate {
         System.out.println("快递已达到，准备派送");
     }
 
-    protected abstract void call();//联系收货人，联系人不一样，所以为抽象方法，子类实现
+    /**
+     * 联系收货人，联系人不一样，所以为抽象方法，子类实现
+     */
+    protected abstract void call();
 
     protected boolean isSign() {//是否签收,这个是钩子方法，用来控制流程的走向
         return true;

@@ -1,4 +1,4 @@
-package study.icourse.exercise6;
+package book.icourse.exercise6;
 
 /**
  * 异常测试类

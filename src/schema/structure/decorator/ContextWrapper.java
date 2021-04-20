@@ -24,6 +24,7 @@ public class ContextWrapper extends Context {
         return this.mBase;
     }
 
+    @Override
     public void setTheme(String theme) {
         mBase.setTheme(theme);
     }

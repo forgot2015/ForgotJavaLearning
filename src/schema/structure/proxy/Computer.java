@@ -9,6 +9,7 @@ import sun.nio.ch.Net;
  * Description:
  */
 public class Computer implements Network {
+    @Override
     public void surfing() {
         System.out.println("通过代理来网上冲浪");
     }

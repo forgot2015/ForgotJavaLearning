@@ -1,4 +1,4 @@
-package algorithm.swordoffer;
+package algorithm.swordtooffer;
 
 import java.util.Stack;
 

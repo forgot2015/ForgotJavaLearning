@@ -1,4 +1,4 @@
-package study.headfirstjava.two;
+package book.headfirstjava.two;
 
 /**
  * Created by forgot on 2017/6/25.

@@ -1,7 +1,10 @@
-package study.icourse;
+package book.icourse;
 
+import java.util.Scanner;
+
+//中国慕课网 课程
 public class Main {
-    //期末考试
+//期末考试
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int input = scanner.nextInt();
@@ -13,7 +16,7 @@ public class Main {
 //        }
 //    }
 
-    //java练习7.1
+//java练习7.1
 //    static StringBuilder str = new StringBuilder();
 //
 //    public static void main(String[] args) {
@@ -39,8 +42,7 @@ public class Main {
 //        }
 //    }
 
-
-    //java练习7.2
+//java练习7.2
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int n = scanner.nextInt();
@@ -69,8 +71,8 @@ public class Main {
 //        return divisorSum == num;
 //    }
 
-    // TODO: 2018/11/27
-    //java练习6.1 测试用例无法全部通过，未知原因
+// TODO: 2018/11/27
+//java练习6.1 测试用例无法全部通过，未知原因
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        String input = scanner.nextLine().trim();
@@ -143,7 +145,7 @@ public class Main {
 //        return output;
 //    }
 
-    //java题4.1 求第n个素数到第m个素数之间的所有的素数
+//java题4.1 求第n个素数到第m个素数之间的所有的素数
 //    public static void main(String[] args) {
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
@@ -197,7 +199,7 @@ public class Main {
 //        System.out.println(a == b);
 //    }
 
-    //    练习题3.2网友解法
+//    练习题3.2网友解法
 //    public static void main(String[] args) {
 //        int a = 0;
 //        int b = 1;
@@ -213,8 +215,7 @@ public class Main {
 //        }
 //        System.out.println(sum);
 //    }
-}
-
+//}
 
 //练习题3。2 我的渣渣解法，内存占用太多
 //    public static void main(String[] args) {
@@ -255,7 +256,7 @@ public class Main {
 //        int oushu = 0;
 //        long input = in.nextLong();
 //        while (input != -1) {
-//            if (input % 2 == 0) {
+//            if (input % 2 == 0) { //推荐通过(a&1)==0来判断,位运算,性能更优
 //                oushu++;
 //            } else {
 //                jishu++;
@@ -359,4 +360,4 @@ public class Main {
 //        System.out.println((int)c);
 //    }
 
-//}
+}

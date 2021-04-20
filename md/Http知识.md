@@ -1,8 +1,8 @@
 # Http知识
 
 ## 三次握手
-## 四次回收
+## 四次挥手
 ## RESTful接口
-## SSL
+## SSL/TLS
 ## HTTPS
 ## TCP与UDP

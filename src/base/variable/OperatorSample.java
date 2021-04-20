@@ -1,4 +1,4 @@
-package base;
+package base.variable;
 
 /**
  * Created by forgot on 2017/7/14.

@@ -1,4 +1,4 @@
-package base;
+package base.variable;
 
 public class IntegerSample {
     public static void main(String[] args) {

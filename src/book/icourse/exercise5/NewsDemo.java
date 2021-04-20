@@ -1,4 +1,4 @@
-package study.icourse.exercise5;
+package book.icourse.exercise5;
 
 /**
  * 一个简单的新闻事件侦听演示程序
@@ -30,7 +30,6 @@ public class NewsDemo {
     }
 }
 
-
 /**
  * 事件信息
  */
@@ -46,7 +45,7 @@ class NewsEvent {
     }
 }
 
-interface Listener {
+interface NewsListener {
     void newsArrived(NewsEvent e);
 }
 
@@ -60,11 +59,11 @@ class NewsAgency {
         this.name = name;
     }
 
-    Listener[] listeners = new Listener[100]; //侦听者（订阅者）
+    NewsListener[] listeners = new NewsListener[100]; //订阅者
     int listenerCnt = 0; //已有的订阅者
 
     //加入一个订阅者
-    void addListener(Listener oneListener) {
+    void addListener(NewsListener oneListener) {
         if (listenerCnt < listeners.length) {
             listeners[listenerCnt] = oneListener;
             listenerCnt++;
@@ -84,15 +83,18 @@ class NewsAgency {
 /**
  * 实现一个订阅者
  */
-class MyListener implements Listener {
+class MyListener implements NewsListener {
     //当接收到消息后，进行一些显示
+    @Override
     public void newsArrived(NewsEvent e) {
-        if (e.level > 5) System.out.println("warning :");
+        if (e.level > 5) {
+            System.out.println("warning :");
+        }
         System.out.println("please note," + e.text + " happen!");
     }
 }
 
-abstract class ForgotListener implements Listener {
+abstract class ForgotListener implements NewsListener {
 }
 
 

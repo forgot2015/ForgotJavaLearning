@@ -6,7 +6,7 @@ package schema.behavior.mediator.second;
  * Time: 10:23 AM
  * Description:
  */
-public class MediatorPatternDemo {
+public class MediatorPatternTest {
     public static void main(String[] args) {
         User robert = new User("Robert");
         User john = new User("John");

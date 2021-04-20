@@ -1,5 +1,7 @@
-package algorithm.swordoffer;
+package algorithm.swordtooffer;
 
+
+import java.util.HashMap;
 
 /**
  * Created by forgot on 5/24/2017.
@@ -14,14 +16,14 @@ public class Solution4 {
             return null;
         }
 
-        java.util.HashMap<Integer, Integer> map = new java.util.HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < in.length; i++) {
             map.put(in[i], i);
         }
         return preIn(pre, 0, pre.length - 1, in, 0, in.length - 1, map);
     }
 
-    public static TreeNode preIn(int[] p, int pi, int pj, int[] n, int ni, int nj, java.util.HashMap<Integer, Integer> map) {
+    public static TreeNode preIn(int[] p, int pi, int pj, int[] n, int ni, int nj, HashMap<Integer, Integer> map) {
         if (pi > pj) {
             return null;
         }

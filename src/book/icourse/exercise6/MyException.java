@@ -1,4 +1,4 @@
-package study.icourse.exercise6;
+package book.icourse.exercise6;
 
 /**
  * 自定义异常

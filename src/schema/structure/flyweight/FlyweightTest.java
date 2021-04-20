@@ -1,5 +1,8 @@
 package schema.structure.flyweight;
 
+import com.sun.org.slf4j.internal.Logger;
+import com.sun.org.slf4j.internal.LoggerFactory;
+
 /**
  * Author: zongfulin
  * Date: 2021/3/26
@@ -9,7 +12,10 @@ package schema.structure.flyweight;
  * 将导致对象创建及垃圾回收的代价过高，造成性能下降等问题。享元模式通过共享相同或者相似的细粒度对象解决了这一类问题。
  */
 public class FlyweightTest {
+    private static final Logger logger = LoggerFactory.getLogger(FlyweightTest.class);
     public static void main(String[] args) {
+        logger.error("name = {}, outerState = {}", "main", "externalState");
+
         BikeFactory bikeFactory = new BikeFactory();
         IBike ofo = bikeFactory.getBike("ofo");
         ofo.billing("ofo", 1);

@@ -1,4 +1,4 @@
-package study;
+package book;
 
 /**
  * Author: zongfulin

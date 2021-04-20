@@ -7,7 +7,7 @@ import java.util.List;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 1:48 PM
- * Description:    //快递容器类
+ * Description: 快递容器类
  */
 public class DeliveryAggregate implements Aggregate {
     private List<String> list = new ArrayList<>();

@@ -1,4 +1,4 @@
-package study.headfirstjava;
+package book.headfirstjava;
 
 /**
  * Created by forgot on 2017/6/27.
@@ -6,7 +6,7 @@ package study.headfirstjava;
  */
 public class MutilThread {
     public static void main(String[] args) {
-        myThread.run();//并不会开启线程，还是处于main线程
+        myThread.run();//并不会开启子线程，而还是处于main线程
         System.out.println("-----------");
         myThread.start();//会调用新的子线程.
         System.out.println("main," + Thread.currentThread());

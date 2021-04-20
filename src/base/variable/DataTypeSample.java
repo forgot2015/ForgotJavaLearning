@@ -1,4 +1,4 @@
-package base;
+package base.variable;
 
 /**
  * Created by forgot on 2017/7/14.
@@ -7,7 +7,7 @@ public class DataTypeSample {
     static char c;
 
     public static void main(String[] args) {
-//        System.out.println(c);
+        System.out.println(c);
         // byte
         System.out.println("基本类型：byte 二进制位数：" + Byte.SIZE);
         System.out.println("包装类：java.lang.Byte");

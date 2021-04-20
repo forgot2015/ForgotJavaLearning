@@ -35,6 +35,5 @@ public class HttpSample {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }

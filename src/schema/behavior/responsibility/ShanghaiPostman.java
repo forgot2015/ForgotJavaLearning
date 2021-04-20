@@ -4,9 +4,9 @@ package schema.behavior.responsibility;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 3:11 PM
- * Description:
+ * Description:上海快递员
  */
-public class ShanghaiPostman extends Postman {//上海快递员
+public class ShanghaiPostman extends Postman {
 
     @Override
     public void handleCourier(String address) {

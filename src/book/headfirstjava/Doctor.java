@@ -1,4 +1,4 @@
-package study.headfirstjava;
+package book.headfirstjava;
 
 /**
  * Created by forgot on 2017/6/26.
@@ -12,7 +12,7 @@ public class Doctor {
     }
 }
 
-class FamilyDoctor extends Doctor {
+ class FamilyDoctor extends Doctor {
     boolean makesHouseCalls;
 
     void giveAdvice() {
@@ -20,10 +20,11 @@ class FamilyDoctor extends Doctor {
     }
 }
 
+//外科医生
 class Surgeon extends Doctor {
     @Override
     void treatPatient() {
-        System.out.println("进行手术");
+        System.out.println("治疗病人");
     }
 
     void makeOperation() {
