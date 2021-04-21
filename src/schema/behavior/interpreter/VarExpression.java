@@ -4,7 +4,7 @@ package schema.behavior.interpreter;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 1:34 PM
- * Description:
+ * Description:变量
  */
 public class VarExpression extends ArithmeticExpression {
     private String var;

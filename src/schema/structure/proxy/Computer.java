@@ -11,6 +11,6 @@ import sun.nio.ch.Net;
 public class Computer implements Network {
     @Override
     public void surfing() {
-        System.out.println("通过代理来网上冲浪");
+        System.out.println("通过电脑代理来网上冲浪");
     }
 }

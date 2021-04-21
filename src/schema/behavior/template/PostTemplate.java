@@ -12,8 +12,8 @@ public abstract class PostTemplate {
         prepare();//准备派送
         call();//联系收货人
         if (isSign()) {
-            //是否签收
-            sign();//签收
+
+            sign();
         } else {
             refuse();//拒签
         }
@@ -28,14 +28,23 @@ public abstract class PostTemplate {
      */
     protected abstract void call();
 
+    /**
+     * @return 是否签收
+     */
     protected boolean isSign() {//是否签收,这个是钩子方法，用来控制流程的走向
         return true;
     }
 
+    /**
+     * 签收详情
+     */
     protected void sign() {//签收，这个是固定流程，父类实现
         System.out.println("客户已签收，上报系统");
     }
 
-    protected void refuse() {//拒签，空实现，这个也是钩子方法，子类可以跟进实际来决定是否去实现这个方法
+    /**
+     * 拒签，空实现，这个也是钩子方法，子类可以根据实际来决定是否去实现这个方法
+     */
+    protected void refuse() {
     }
 }

@@ -1,12 +1,12 @@
 package schema.behavior.mediator;
 
 /**
- * Author: zongfulin
  * Date: 2021/3/29
  * Time: 2:14 PM
- * Description:
+ * Description:链家，实现HouseMediator
+ * @author zongfulin
  */
-public class Lianjia implements HouseMediator {//链家，实现HouseMediator
+public class Lianjia implements HouseMediator {
     private Purchaser mPurchaser;
     private Landlord mLandlord;
 

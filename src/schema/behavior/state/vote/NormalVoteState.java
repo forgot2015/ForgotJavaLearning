@@ -2,7 +2,7 @@ package schema.behavior.state.vote;
 
 /**
  * Created by forgot on 2017/6/20.
- * 普通状态
+ * 普通状态,正常投票
  */
 public class NormalVoteState implements VoteState {
     @Override
@@ -10,6 +10,6 @@ public class NormalVoteState implements VoteState {
         //正常投票，记录到投票记录中
         voteManager.getMapVote().put(user, voteItem);
         System.out.println("恭喜投票成功");
-        System.out.println("当前投票池:"+voteManager.getMapVote().toString());
+        System.out.println("当前有效投票池:" + voteManager.getMapVote() + ",投票数量:" + voteManager.getMapVoteCount());
     }
 }

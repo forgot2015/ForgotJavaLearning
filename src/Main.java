@@ -5,8 +5,14 @@ public class Main {
     private static String str;
 
     public static void main(String[] args) {
-        String[] strs = new String[]{};
+        String strs ="dsd";
 //        strs[1] = "1";
+
+        System.out.println(strs.getClass().getClassLoader());
+
+        System.out.println(String.class.getClassLoader());
+        java.lang.String str = "123";
+        System.out.println(str.getClass().getClassLoader());
     }
 
     private static void addItem(List list, Integer i) {

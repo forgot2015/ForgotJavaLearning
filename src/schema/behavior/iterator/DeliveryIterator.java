@@ -4,7 +4,7 @@ package schema.behavior.iterator;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 1:45 PM
- * Description://快递迭代类
+ * Description:快递迭代类
  */
 public class DeliveryIterator implements Iterator {
     private Aggregate aggregate;

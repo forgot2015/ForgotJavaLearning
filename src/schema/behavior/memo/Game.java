@@ -4,9 +4,9 @@ package schema.behavior.memo;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 2:29 PM
- * Description:
+ * Description:游戏类
  */
-public class Game {//游戏类
+public class Game {
     private int mLevel = 1;//等级
     private int mCoin = 0;//金币数量
 
@@ -22,9 +22,9 @@ public class Game {//游戏类
         System.out.println("升级了");
         mLevel++;
         System.out.println("当前等级为:" + mLevel);
-        System.out.println("获得金币:32");
+        System.out.println("升级获得金币:32");
         mCoin += 32;
-        System.out.println("当前金币数量为:" + mCoin);
+        System.out.println("当前总金币数量为:" + mCoin);
     }
 
     public void exit() {

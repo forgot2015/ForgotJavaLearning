@@ -4,9 +4,9 @@ package schema.behavior.interpreter;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 1:35 PM
- * Description:
+ * Description:计算器类
  */
-public class Calculator {//计算器类
+public class Calculator {
     Context mContext = new Context();
     private ArithmeticExpression mExpression;
 
@@ -25,7 +25,6 @@ public class Calculator {//计算器类
             default:
                 break;
         }
-
     }
 
     public int calculate() {//计算结果

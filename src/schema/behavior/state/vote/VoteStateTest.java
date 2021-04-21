@@ -6,8 +6,9 @@ package schema.behavior.state.vote;
 public class VoteStateTest {
     public static void main(String[] args) {
         VoteManager vm = new VoteManager();
+        vm.vote("user2", "林总");
         for (int i = 0; i < 6; i++) {
-            vm.vote("u1", "A");
+            vm.vote("user1", "老何");
         }
     }
 }

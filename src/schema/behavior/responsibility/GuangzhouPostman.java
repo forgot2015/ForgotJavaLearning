@@ -11,7 +11,7 @@ public class GuangzhouPostman extends Postman {//广州快递员
     @Override
     public void handleCourier(String address) {
         if (address.equals("Guangzhou")) {
-            System.out.println("派送到广州");
+            System.out.println("派送到广州,广州处理掉了");
         } else {
             if (nextPostman != null) {
                 System.out.println("广州处理不了,交由下一快递员派送");

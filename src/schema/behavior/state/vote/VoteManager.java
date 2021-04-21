@@ -22,6 +22,10 @@ public class VoteManager {
         return mapVote;
     }
 
+    public Map<String, Integer> getMapVoteCount() {
+        return mapVoteCount;
+    }
+
     /**
      * 投票
      *

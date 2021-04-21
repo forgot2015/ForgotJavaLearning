@@ -3,7 +3,7 @@ package schema.behavior.state.base;
 /**
  * Created by forgot on 2017/6/20.
  */
-public class Context {
+public class StateContext {
     private State state;
 
     public void setState(State state) {

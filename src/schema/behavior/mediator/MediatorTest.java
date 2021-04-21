@@ -13,7 +13,8 @@ package schema.behavior.mediator;
  * 缺点:同事类越多，中介者的逻辑就越复杂，会变得越难维护。
  * 如果本来类的依赖关系不复杂，但是使用了中介者会使原来不复杂的逻辑变得复杂。因此需要根据实际情况去考虑，不要滥用中介者
  *
- * Android中的锁屏功能就用到了中介者模式，KeyguardService（锁屏服务）通过KeyguardViewMediator（锁屏中介者）来协调各种Manager的状态以达到锁屏的功能。这里KeyguardService和各种Manager等等都充当了同事的角色。
+ * Android中的锁屏功能就用到了中介者模式，KeyguardService（锁屏服务）通过KeyguardViewMediator（锁屏中介者）来协调各种Manager的状态
+ * 以达到锁屏的功能。这里KeyguardService和各种Manager等等都充当了同事的角色。
  *
  */
 public class MediatorTest {

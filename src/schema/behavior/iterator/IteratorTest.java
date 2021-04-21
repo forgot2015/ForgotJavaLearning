@@ -19,7 +19,7 @@ public class IteratorTest {
         aggregate.add("9527");
 
         Iterator iterator = aggregate.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
         System.out.println("后面没有了");

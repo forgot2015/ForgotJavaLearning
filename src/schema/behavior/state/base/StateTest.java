@@ -10,7 +10,7 @@ public class StateTest {
     public static void main(String[] args) {
         State state1 = new OpenState();
         State state2 = new CloseState();
-        Context context = new Context();
+        StateContext context = new StateContext();
         context.setState(state1);
         context.request("test");
         context.setState(state2);

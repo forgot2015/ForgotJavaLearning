@@ -4,7 +4,7 @@ package schema.behavior.interpreter;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 1:35 PM
- * Description:
+ * Description:减法
  */
 public class SubExpression extends ArithmeticExpression {
     private ArithmeticExpression left, right;//减号左右两边的内容

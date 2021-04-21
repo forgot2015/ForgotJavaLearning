@@ -4,7 +4,7 @@ package schema.behavior.interpreter;
  * Author: zongfulin
  * Date: 2021/3/29
  * Time: 1:34 PM
- * Description:
+ * Description:数字
  */
 public class NumExpression extends ArithmeticExpression {
     private String strNum;
