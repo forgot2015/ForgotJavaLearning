@@ -12,9 +12,13 @@ public class DeepTest {
         Student student1 = student.clone();
         System.out.println(student);
         System.out.println(student1);
-        System.out.println("-----改变地址-----");
+        System.out.println("-----改变属性-----");
         student.getAddress().setAddr("guangzhou");
+        student.setName("new forgot");
+        student.setAge(28);
         System.out.println(student.toString());
         System.out.println(student1.toString());
+
+        System.out.println("------------------");
     }
 }

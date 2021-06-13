@@ -10,12 +10,20 @@ public abstract class Postman {
     /**
      * 下一个快递员
      */
-    protected Postman nextPostman;
+    private Postman nextPostman;
 
     /**
      * 派送快递
      *
      * @param address
      */
-    public abstract void handleCourier(String address);
+    public abstract void handleExpress(String address);
+
+    public void setNextChain(Postman postman) {
+        this.nextPostman = postman;
+    }
+
+    public Postman getNextChain() {
+        return nextPostman;
+    }
 }

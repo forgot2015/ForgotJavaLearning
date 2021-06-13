@@ -1,6 +1,5 @@
 package schema.structure.proxy;
 
-import sun.nio.ch.Net;
 
 /**
  * Author: zongfulin

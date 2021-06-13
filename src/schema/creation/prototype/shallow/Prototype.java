@@ -14,6 +14,7 @@ public class Prototype implements Cloneable {
         this.name = name;
     }
 
+    @Override
     public Prototype clone() {
         try {
             return (Prototype) super.clone();

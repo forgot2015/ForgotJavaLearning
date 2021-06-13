@@ -3,8 +3,7 @@ package schema.creation.builder;
 import schema.creation.builder.builder.FatPersonBuilder;
 import schema.creation.builder.builder.PersonBuilder;
 import schema.creation.builder.builder.ThinPersonBuilder;
-import schema.creation.builder.director.PersonDirector;
-import schema.creation.builder.director.PersonDirector2;
+import schema.creation.builder.builder.PersonDirector;
 
 /**
  * Created by forgot on 2017/6/18.

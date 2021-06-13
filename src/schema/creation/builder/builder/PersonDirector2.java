@@ -1,4 +1,4 @@
-package schema.creation.builder.director;
+package schema.creation.builder.builder;
 
 import schema.creation.builder.builder.PersonBuilder;
 

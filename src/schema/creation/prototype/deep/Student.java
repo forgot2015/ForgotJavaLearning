@@ -49,7 +49,8 @@ public class Student implements Cloneable {
         Student student = null;
         try {
             student = (Student) super.clone();
-//            若不加这句,则没法实现深克隆,导致改变地址的话,克隆的对象地址也会跟着改变
+//            若不加这句,则没法实现深克隆,导致改变地址的话,克隆的对象地址也会跟着改变?
+//            实现深拷贝/深克隆的关键,对象也要克隆
             student.setAddress(student.getAddress().clone());
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();

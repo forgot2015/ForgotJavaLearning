@@ -9,13 +9,13 @@ package schema.behavior.responsibility;
 public class BeijingPostman extends Postman {//北京快递员
 
     @Override
-    public void handleCourier(String address) {
+    public void handleExpress(String address) {
         if (address.equals("Beijing")) {//北京地区的则派送
             System.out.println("派送到北京,北京处理掉了");
         } else {//否则交给下一个快递员去处理
-            if (nextPostman != null) {
+            if (getNextChain() != null) {
                 System.out.println("北京处理不了,交由下一快递员派送");
-                nextPostman.handleCourier(address);
+                getNextChain().handleExpress(address);
             } else {
                 System.out.println("没有快递员能派送,快递将原路打回");
             }

@@ -9,13 +9,13 @@ package schema.behavior.responsibility;
 public class ShanghaiPostman extends Postman {
 
     @Override
-    public void handleCourier(String address) {
+    public void handleExpress(String address) {
         if (address.equals("Shanghai")) {
             System.out.println("派送到上海,上海处理掉了");
         } else {
-            if (nextPostman != null) {
+            if (getNextChain() != null) {
                 System.out.println("上海处理不了,交由下一快递员派送");
-                nextPostman.handleCourier(address);
+                getNextChain().handleExpress(address);
             } else {
                 System.out.println("没有快递员能派送,快递将原路打回");
             }
