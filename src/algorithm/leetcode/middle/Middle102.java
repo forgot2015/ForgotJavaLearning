@@ -1,7 +1,9 @@
 package algorithm.leetcode.middle;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @author zongfulin
@@ -35,21 +37,34 @@ import java.util.List;
  */
 public class Middle102 {
     public static void main(String[] args) {
-        System.out.println(new Middle102().levelOrder(new TreeNode(2)));
     }
 
-    public List<Integer> levelOrder(TreeNode root) {
-        List<> lists = new ArrayList<>();
-        return dfs(root, lists);
-    }
-
-    void dfs(TreeNode root, List<Integer> lists) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
-            return lists;
+            return new ArrayList<>();
         }
-        lists.add(root.val);
-        dfs(root.left, lists);
-        dfs(root.right, lists);
+        List<List<Integer>> res = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+//            第一次 queue.size = 1
+//            第二次可能下一层有两个节点, queue.size = 2
+//            第三次执行 while 是可能有4 个节点,queue.size =4 , 这样就实现了分层打印的效果
+            int count = queue.size();
+            List<Integer> list = new ArrayList<>();
+            while (count > 0) {
+                TreeNode node = queue.poll();
+                list.add(node.val);
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+                count--;
+            }
+            res.add(list);
+        }
+        return res;
     }
-
 }
