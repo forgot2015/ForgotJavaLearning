@@ -1,5 +1,7 @@
 import java.util.Arrays;
 import java.util.concurrent.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Author: zongfulin
@@ -18,10 +20,32 @@ public class MainTest {
 //        System.out.println((11 << 4) + 3);
 //        System.out.println(11 << 4 | 3);
 
-        double voltage = 0.1;
-        int v1 = (int) (voltage * 10);
-        String hex = Integer.toHexString(v1);
-        System.out.println(Arrays.toString(hexString2Bytes(fillHexToFour(hex))));
+//        double voltage = 0.1;
+//        int v1 = (int) (voltage * 10);
+//        String hex = Integer.toHexString(v1);
+//        System.out.println(Arrays.toString(hexString2Bytes(fillHexToFour(hex))));
+
+//        浮点型相加后可能数值不对
+//        float sum = 0.0f;
+//        double sumD = 0.0;
+//        for (int i = 0; i < 100; i++) {
+//            sum += 0.1;
+//            sumD += 0.1;
+//        }
+//        System.out.println(sum);
+//        System.out.println(sumD);
+
+//        String string = "ʕ ᵔᴥᵔ ʔ";
+//        String string = "你呢(ʕ ᵔᴥᵔ ʔ";
+        String string = "三星电子Account: 996402 是您的三星账号验证码(用于注册，登录，绑定手机号，重置密码等)";
+//        String string = " -~`!@#$%^&*()_=+{};,:<>?/西藏自治区拉萨市墨竹工卡县ABabcdefghijk-!@#%&=_+;,:<>";
+        String regex = "[-~`!@#$%^&*()_=+{};,:<>?/|.—「」【】；‘：《》，。、？\\s\\w\\u4e00-\\u9fa5]*";
+        Pattern p = Pattern.compile(regex);
+        Matcher m = p.matcher(string);
+        System.out.println("m.matches() = " + m.matches());
+        System.out.println("m.find() = " + m.find());
+        System.out.println("m.toString() = " + m.toString());
+        System.out.println("string.matches(regex) = " + string.matches(regex));
     }
 
     public static String fillHexToFour(String hex) {
@@ -61,7 +85,6 @@ public class MainTest {
             throw new IllegalArgumentException();
         }
     }
-
 
     static class SubThread implements Runnable {
         @Override
