@@ -20,18 +20,18 @@ public class ListTest {
         System.out.println(stringList.size());
 //        System.out.println(stringList.get(-1));
 
-        List<String> list = new ArrayList<String>();
+        List<String> arrayList = new ArrayList<String>();
         //CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<String>();
-        list.add("a");
-        for (String str : list) {
+        arrayList.add("a");
+        for (String str : arrayList) {
 //            list.remove(str);
         }
 
         System.out.println("LinkedList");
-        List<String> stringList1 = new LinkedList<>();
-        stringList1.add("linkedList");
-        System.out.println(stringList1.get(0));
-        System.out.println(stringList1.size());
+        List<String> linkList = new LinkedList<>();
+        linkList.add("linkedList");
+        System.out.println(linkList.get(0));
+        System.out.println(linkList.size());
 
         System.out.println(new Date());
         System.out.println(new java.sql.Date(System.currentTimeMillis()));

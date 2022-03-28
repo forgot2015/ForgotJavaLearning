@@ -1,6 +1,7 @@
 package algorithm.sort;
 
 import algorithm.sort.exchange.BubbleSort;
+import algorithm.sort.insert.InsertSort;
 
 import java.util.Arrays;
 
@@ -32,7 +33,7 @@ public class SortTest {
 
 
         //插入排序
-//        new InsertSort().insertSort(ints, 10);
+        new InsertSort().insertSort(ints, 10);
 
         //希尔排序
 //        new ShellSort().shellSort1(ints,10);

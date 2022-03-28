@@ -8,6 +8,7 @@ package algorithm.sort.insert;
  * 时间复杂度O(n^2)
  */
 public class BinaryInsertSort {
+
     void binaryInsertSort(int[] a, int n) {
         int i, j, x, low, high, mid;
         for (i = 1; i < n; i++) {

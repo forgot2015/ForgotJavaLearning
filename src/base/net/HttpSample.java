@@ -16,7 +16,7 @@ public class HttpSample {
     public static void readContentFromPost() {
         try {
             // Post请求的url，与get不同的是不需要带参数
-            URL postUrl = new URL("http://quan.suning.com/getSysTime.do");
+            URL postUrl = new URL("http://baidu.com");
             // 打开连接
             HttpURLConnection connection = (HttpURLConnection) postUrl.openConnection();
             //打开读写属性，默认均为false

@@ -2,32 +2,32 @@ package algorithm.sort.exchange;
 
 /**
  * 快速排序
- * 优化方案 http://www.blogjava.net/killme2008/archive/2010/09/08/quicksort_optimized.html
+ * 优化方案
  */
 public class QuickSort {
 
-    public void quickSort(int[] a, int low, int high) {
+    public void quickSort(int[] arr, int low, int high) {
         if (low < high) {
-            int pivotpos = Partiction(a, low, high);
-            quickSort(a, low, pivotpos - 1);
-            quickSort(a, pivotpos + 1, high);
+            int pivotPosition = partition(arr, low, high);
+            quickSort(arr, low, pivotPosition - 1);
+            quickSort(arr, pivotPosition + 1, high);
         }
     }
 
-    private int Partiction(int[] a, int low, int high) {
-        int pivot = a[low];
+    private int partition(int[] arr, int low, int high) {
+        int pivot = arr[low];
         while (low < high) {
-            while (low < high && pivot <= a[high]) {
+            while (low < high && pivot <= arr[high]) {
                 high--;
             }
-            a[low] = a[high];
-            while (low < high && a[low] <= pivot) {
+            arr[low] = arr[high];
+            while (low < high && arr[low] <= pivot) {
                 low++;
             }
-            a[high] = a[low];
+            arr[high] = arr[low];
 
         }
-        a[low] = pivot;
+        arr[low] = pivot;
         return low;
     }
 

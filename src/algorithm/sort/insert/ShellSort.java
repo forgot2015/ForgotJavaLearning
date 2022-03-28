@@ -32,8 +32,6 @@ public class ShellSort {
                 }
                 a[j] = x;
             }
-
-
         }
     }
 
