@@ -1,4 +1,9 @@
+import java.io.Console;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -10,6 +15,8 @@ import java.util.regex.Pattern;
  * Description:
  */
 public class MainTest {
+    private String deployments_url;
+
     //    private static ExecutorService executor = Executors.newFixedThreadPool(15);
     private static ThreadPoolExecutor executor = new ThreadPoolExecutor(1, 100, 0, TimeUnit.SECONDS, new ArrayBlockingQueue<>(1));
 
@@ -37,15 +44,30 @@ public class MainTest {
 
 //        String string = "ʕ ᵔᴥᵔ ʔ";
 //        String string = "你呢(ʕ ᵔᴥᵔ ʔ";
-        String string = "三星电子Account: 996402 是您的三星账号验证码(用于注册，登录，绑定手机号，重置密码等)";
-//        String string = " -~`!@#$%^&*()_=+{};,:<>?/西藏自治区拉萨市墨竹工卡县ABabcdefghijk-!@#%&=_+;,:<>";
-        String regex = "[-~`!@#$%^&*()_=+{};,:<>?/|.—「」【】；‘：《》，。、？\\s\\w\\u4e00-\\u9fa5]*";
-        Pattern p = Pattern.compile(regex);
-        Matcher m = p.matcher(string);
-        System.out.println("m.matches() = " + m.matches());
-        System.out.println("m.find() = " + m.find());
-        System.out.println("m.toString() = " + m.toString());
-        System.out.println("string.matches(regex) = " + string.matches(regex));
+//        String string = "三星电子Account: 996402 是您的三星账号验证码(用于注册，登录，绑定手机号，重置密码等)";
+////        String string = " -~`!@#$%^&*()_=+{};,:<>?/西藏自治区拉萨市墨竹工卡县ABabcdefghijk-!@#%&=_+;,:<>";
+//        String regex = "[-~`!@#$%^&*()_=+{};,:<>?/|.—「」【】；‘：《》，。、？\\s\\w\\u4e00-\\u9fa5]*";
+//        Pattern p = Pattern.compile(regex);
+//        Matcher m = p.matcher(string);
+//        System.out.println("m.matches() = " + m.matches());
+//        System.out.println("m.find() = " + m.find());
+//        System.out.println("m.toString() = " + m.toString());
+//        System.out.println("string.matches(regex) = " + string.matches(regex));
+
+//        BigDecimal bdTest = new BigDecimal(1.745);
+//        BigDecimal bdTest1 = new BigDecimal(0.745+"");
+//        bdTest = bdTest.setScale(2, BigDecimal.ROUND_HALF_UP);
+//        bdTest1 = bdTest1.setScale(2, BigDecimal.ROUND_HALF_UP);
+//        System.out.println("bdTest:" + bdTest); // 1.75
+//        System.out.println("bdTest1:" + bdTest1); // 0.74
+
+//        double value = 16325.62901;
+//
+//        String str = new DecimalFormat("#,##0.000000").format(value);
+//        System.out.println(str);
+        List<String> list = new ArrayList<>();
+        list.add(null);
+        System.out.println(list.size());
     }
 
     public static String fillHexToFour(String hex) {
