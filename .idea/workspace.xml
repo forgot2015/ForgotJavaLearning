@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="完成第三周习题">
+      <change afterPath="$PROJECT_DIR$/src/ForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1096.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1097.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1098.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1108.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/easy/Easy121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/easy/Easy121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/problem1001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,18 +74,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/src.zip!/java/lang/Object.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/src.zip!/java/lang/String.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/src.zip!/java/lang/Class.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpServers">
     <servers />
@@ -90,37 +95,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Math&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java&#10;String&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/String.class&#10;SimpleDateFormat&#9;PSI&#9;JAVA://java.text.SimpleDateFormat&#10;Hex&#9;PSI&#9;JAVA://javax.xml.bind.annotation.adapters.HexBinaryAdapter&#10;StackOverflowError&#9;PSI&#9;JAVA://java.lang.StackOverflowError" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/GithubProjects/ForgotJavaLearning&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
@@ -151,9 +134,35 @@
       <recent name="book.effectivejava.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
+  <component name="RunManager" selected="Application.Problem1097">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,19 +222,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.search.BinarySearchTest" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
     </configuration>
     <configuration name="ExceptionTest3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.exception.ExceptionTest3" />
@@ -241,13 +246,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.sample.loadsequence.InitOrderTest" />
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForTest" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem1096" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.Problem1096" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.sample.loadsequence.*" />
+          <option name="PATTERN" value="algorithm.pat.problemB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,21 +268,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.sort.counting.RadixSort" />
+    <configuration name="Problem1097" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.Problem1097" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.sort.counting.*" />
+          <option name="PATTERN" value="algorithm.pat.problemB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,13 +282,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.thread.ThreadSample" />
+    <configuration name="Problem1101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.Problem1101" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.thread.*" />
+          <option name="PATTERN" value="algorithm.pat.problemB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem1108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.Problem1108" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.pat.problemB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,42 +315,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="grailsApplicationRoot" value="" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -428,19 +411,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExceptionTest3" />
-      <item itemvalue="Application.InitOrderTest" />
-      <item itemvalue="Application.ThreadSample" />
-      <item itemvalue="Application.BinarySearchTest" />
-      <item itemvalue="Application.RadixSort" />
-      <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.ForTest" />
+      <item itemvalue="Application.Problem1096" />
+      <item itemvalue="Application.Problem1097" />
+      <item itemvalue="Application.Problem1101" />
+      <item itemvalue="Application.Problem1108" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.BinarySearchTest" />
-        <item itemvalue="Application.ThreadSample" />
-        <item itemvalue="Application.InitOrderTest" />
+        <item itemvalue="Application.Problem1097" />
+        <item itemvalue="Application.Problem1096" />
+        <item itemvalue="Application.Problem1101" />
+        <item itemvalue="Application.Problem1108" />
+        <item itemvalue="Application.ForTest" />
       </list>
     </recent_temporary>
   </component>
@@ -604,6 +587,10 @@
       <workItem from="1648220666723" duration="1309000" />
       <workItem from="1648265076110" duration="8447000" />
       <workItem from="1648541778912" duration="4277000" />
+      <workItem from="1655999260591" duration="319000" />
+      <workItem from="1656078715945" duration="2086000" />
+      <workItem from="1657900430629" duration="4451000" />
+      <workItem from="1657935641313" duration="12422000" />
     </task>
     <task id="LOCAL-00001" summary="删除部分不用代码，添加基础知识">
       <created>1524130911441</created>
@@ -665,7 +652,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -827,6 +813,26 @@
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/easy/Easy167.java</url>
           <line>59</line>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1096.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1096.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1096.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1096.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/book/icourse/Main.java</url>

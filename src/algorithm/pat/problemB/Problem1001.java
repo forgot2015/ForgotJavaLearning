@@ -20,14 +20,18 @@ package algorithm.pat.problemB;
 5*/
 
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-public class problem1001 {
-    public static void main(String[] args) {
+public class Problem1001 {
+    public static void main(String[] args) throws Exception {
         int step = 0;
-        long n;
-        Scanner scanner = new Scanner(System.in);
-        n = scanner.nextLong();
+        int n;
+//        Scanner scanner = new Scanner(System.in);
+//        n = scanner.nextLong();
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String temp = in.readLine();
+        n = Integer.parseInt(temp);
         while (n != 1) {
             if (n % 2 == 0) {
                 n = n / 2;
