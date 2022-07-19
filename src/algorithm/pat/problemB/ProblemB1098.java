@@ -32,7 +32,7 @@ import java.util.Scanner;
  * 输出样例 2：
  * No 1
  **/
-public class Problem1098 {
+public class ProblemB1098 {
     public static void main(String[] args) {
         int n;
         int topMin = 1000;

@@ -26,7 +26,7 @@ import java.util.Scanner;
  * No
  * Yes
  **/
-public class Problem1096 {
+public class ProblemB1096 {
 
     /**
      * 1. 注意a可以整除b指的是b%a == 0，不要搞反了

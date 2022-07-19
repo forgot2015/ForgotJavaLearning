@@ -40,7 +40,7 @@ import java.util.Scanner;
  * 23 78 98 20 30 81 99
  * 99 99 77 36 48 59 25
  **/
-public class Problem1097 {
+public class ProblemB1097 {
     public static void main(String[] args) {
         int n, k, x;
         Scanner scanner = new Scanner(System.in);

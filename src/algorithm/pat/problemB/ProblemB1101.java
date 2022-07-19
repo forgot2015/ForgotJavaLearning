@@ -30,7 +30,7 @@ import java.util.Scanner;
  * 输出样例 2：
  * 1.00
  **/
-public class Problem1101 {
+public class ProblemB1101 {
 
 //    法1，字符串拼接法
     public static void main(String[] args) {

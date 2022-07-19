@@ -18,7 +18,7 @@ import java.util.Scanner;
  * 输出样例：
  * yi san wu
  **/
-public class Problem1002 {
+public class ProblemB1002 {
     public static void main(String[] args) {
         String[] out = new String[]{"ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"};
         Scanner scanner = new Scanner(System.in);
