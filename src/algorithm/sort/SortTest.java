@@ -1,9 +1,7 @@
 package algorithm.sort;
 
-import algorithm.sort.exchange.BubbleSort;
-import algorithm.sort.insert.InsertSort;
-
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * 排序算法
@@ -22,18 +20,33 @@ import java.util.Arrays;
  */
 public class SortTest {
     public static void main(String[] args) {
-        int[] ints = new int[]{53, 28, 15, 7, 22, 4, 39, 26, 88, 35};
+//        int[] ints = new int[]{53, 28, 15, 7, 22, 4, 39, 26, 88, 35};
+        Integer[] ints = new Integer[]{53, 28, 15, 7, 22, 4, 39, 26, 88, 35};
         //冒泡排序的三种写法
 //        new BubbleSort().bubbleSort(ints,8);
 //        new BubbleSort().bubbleSort2(ints,8);
 //        new BubbleSort().bubbleSort3(ints,8);
-        new BubbleSort().bubble(ints);
+//        new BubbleSort().bubble(ints);
+        Comparator<Integer> comparator =new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                if (o2 > o1) {
+                    return -1;
+                } else if (o1 > o2) {
+                    //返回1代表要更换排序，也就是o1>o2的话要换排序，说明这是从小到大排
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
+        };
+        Arrays.sort(ints, comparator);
         //快速排序
 //        new QuickSort().quickSort(ints,0,7);
 
 
         //插入排序
-        new InsertSort().insertSort(ints, 10);
+//        new InsertSort().insertSort(ints, 10);
 
         //希尔排序
 //        new ShellSort().shellSort1(ints,10);

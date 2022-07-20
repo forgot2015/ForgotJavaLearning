@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="完成第三周习题">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1099.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1106.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1096.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1096.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1097.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1097.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1098.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1098.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Problem1108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1108.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,7 @@
       <recent name="book.effectivejava.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProblemB1099">
+  <component name="RunManager" selected="Application.SortTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -268,8 +261,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemB1106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1106" />
+    <configuration name="ProblemB1103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1103" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.pat.problemB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemB1104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1104" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -296,36 +303,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.SortTest" />
+      <module name="ForgotJavaLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithm.pat.problemB.ProblemB1102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1102" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.pat.problemB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithm.pat.problemB.ProblemB1107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1107" />
-      <module name="ForgotJavaLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.pat.problemB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -426,18 +419,18 @@
     <list>
       <item itemvalue="Application.ExceptionTest3" />
       <item itemvalue="Application.ProblemB1099" />
-      <item itemvalue="Application.algorithm.pat.problemB.ProblemB1106" />
+      <item itemvalue="Application.ProblemB1103" />
+      <item itemvalue="Application.ProblemB1104" />
       <item itemvalue="Application.ProblemB1108" />
-      <item itemvalue="Application.algorithm.pat.problemB.ProblemB1102" />
-      <item itemvalue="Application.algorithm.pat.problemB.ProblemB1107" />
+      <item itemvalue="Application.SortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortTest" />
+        <item itemvalue="Application.ProblemB1104" />
+        <item itemvalue="Application.ProblemB1103" />
         <item itemvalue="Application.ProblemB1099" />
         <item itemvalue="Application.ProblemB1108" />
-        <item itemvalue="Application.algorithm.pat.problemB.ProblemB1102" />
-        <item itemvalue="Application.algorithm.pat.problemB.ProblemB1106" />
-        <item itemvalue="Application.algorithm.pat.problemB.ProblemB1107" />
       </list>
     </recent_temporary>
   </component>
@@ -604,7 +597,7 @@
       <workItem from="1655999260591" duration="319000" />
       <workItem from="1656078715945" duration="2086000" />
       <workItem from="1657900430629" duration="4451000" />
-      <workItem from="1657935641313" duration="17640000" />
+      <workItem from="1657935641313" duration="28058000" />
     </task>
     <task id="LOCAL-00001" summary="删除部分不用代码，添加基础知识">
       <created>1524130911441</created>
@@ -918,6 +911,171 @@
           <line>80</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/book/icourse/Main.java</url>
           <line>174</line>
@@ -943,6 +1101,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>149</line>
+          <properties class="algorithm.pat.problemB.ProblemB1104" method="getMaxCommonDivisor">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>167</line>
+          <properties class="algorithm.pat.problemB.ProblemB1104" method="checkIsPrime">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java</url>
+          <line>134</line>
+          <properties class="algorithm.pat.problemB.ProblemB1104" method="getAllDigitSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
