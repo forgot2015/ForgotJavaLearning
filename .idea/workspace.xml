@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4963a512-14f9-4e6d-ae5c-6463836b4096" name="Default" comment="完成第三周习题">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1104.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1103.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1109.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1109.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/pat/problemB/ProblemB1110.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,16 +95,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/GithubProjects/ForgotJavaLearning",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/GithubProjects/ForgotJavaLearning&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
@@ -135,7 +135,7 @@
       <recent name="book.effectivejava.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -247,8 +247,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemB1099" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1099" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.Main" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -289,8 +289,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemB1108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1108" />
+    <configuration name="ProblemB1110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.pat.problemB.ProblemB1110" />
       <module name="ForgotJavaLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -418,19 +418,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExceptionTest3" />
-      <item itemvalue="Application.ProblemB1099" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ProblemB1110" />
       <item itemvalue="Application.ProblemB1103" />
       <item itemvalue="Application.ProblemB1104" />
-      <item itemvalue="Application.ProblemB1108" />
       <item itemvalue="Application.SortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ProblemB1110" />
         <item itemvalue="Application.SortTest" />
         <item itemvalue="Application.ProblemB1104" />
         <item itemvalue="Application.ProblemB1103" />
-        <item itemvalue="Application.ProblemB1099" />
-        <item itemvalue="Application.ProblemB1108" />
       </list>
     </recent_temporary>
   </component>
@@ -597,7 +597,10 @@
       <workItem from="1655999260591" duration="319000" />
       <workItem from="1656078715945" duration="2086000" />
       <workItem from="1657900430629" duration="4451000" />
-      <workItem from="1657935641313" duration="28058000" />
+      <workItem from="1657935641313" duration="28505000" />
+      <workItem from="1658329647454" duration="9214000" />
+      <workItem from="1658623333966" duration="1116000" />
+      <workItem from="1658649411492" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="删除部分不用代码，添加基础知识">
       <created>1524130911441</created>
